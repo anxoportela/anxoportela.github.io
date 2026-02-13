@@ -120,9 +120,9 @@ customRemoteJS = []
 # code = "ABCDE"
 
 # Umami Analytics (https://umami.is) - Privacy-friendly analytics
-# [params.umami]
-# siteID = "your-site-id"
-# scriptURL = "https://analytics.umami.is/script.js"
+[params.umami]
+siteID = "04224880-8122-43e6-a3dc-b4fdbe1f6f5b"
+scriptURL = "https://analytics.umami.is/script.js"
 
 # If you want to use One Dollars Stats(https://onedollarstats.com/analytics) for analytics, add this section
 # [params.onedollarstats]

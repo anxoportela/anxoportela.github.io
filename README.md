@@ -1,4 +1,4 @@
-# Anxo Portela Personal Website
+# Personal Website
 
 A multilingual personal website built with [Hugo](https://gohugo.io/) and the [Hugo Coder](https://github.com/luizdepra/hugo-coder) theme.
 
