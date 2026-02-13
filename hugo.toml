@@ -45,7 +45,7 @@ author = "Anxo Portela"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Anxo Portela's personal website"
 keywords = "blog,developer,personal,devops"
-info = ["Full Stack Developer", "DevOps Engineer"]
+info = ["QA Lead" , "Driving QA Automation Transformation" , "Technical Talent Mentor" , "Strategic Consultant"]
 avatarURL = "images/avatar.jpg"
 gravatar = "hello@anxoportela.dev"
 dateFormat = "January 2, 2006"
