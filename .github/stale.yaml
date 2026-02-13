@@ -1,0 +1,35 @@
+# Stale bot configuration
+# https://github.com/actions/stale
+
+name: "Close stale issues and PRs"
+
+on:
+  schedule:
+    - cron: "0 9 * * 5"  # Weekly on Friday at 9am
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          # Only issues/PRs with these labels
+          any-of-labels: "needs review"
+          # Days before marking as stale
+          days-before-stale: 60
+          # Days before closing stale
+          days-before-close: 7
+          # Don't stale PRs
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          # Message
+          stale-issue-message: "This issue has been automatically marked as stale because it has not had recent activity."
+          close-issue-message: "This issue was closed because there was no further activity."
+          # Exempt labels
+          exempt-issue-labels: "pinned,security"
+          # Operations
+          operations-per-run: 30

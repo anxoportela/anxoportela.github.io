@@ -1,0 +1,137 @@
+/* Contact Form Styling - Hugo Coder Theme Aligned */
+.contact-form {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fafafa;
+  border: 2px solid #e0e0e0;
+  border-radius: 0.5rem;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #212121;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  color: #212121;
+  font-family: inherit;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #1565c0;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin-top: 1rem;
+  background-color: #ccc;
+  color: #212121;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.contact-form button:hover,
+.contact-form button:focus {
+  background-color: #bbb;
+  text-decoration: none;
+}
+
+/* Dark mode - using theme's dark scheme colors */
+@media (prefers-color-scheme: dark) {
+  .contact-form {
+    background-color: #282c37;
+    border-color: #444;
+  }
+  
+  .contact-form h2 {
+    color: #fff;
+  }
+  
+  .contact-form label {
+    color: #9baec8;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    background-color: #1a1a1a;
+    border-color: #444;
+    color: #fff;
+  }
+  
+  .contact-form button {
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .contact-form button:hover,
+  .contact-form button:focus {
+    background-color: #555;
+  }
+}
+
+/* Theme's dark class support */
+body.dark .contact-form {
+  background-color: #282c37;
+  border-color: #444;
+}
+
+body.dark .contact-form h2 {
+  color: #fff;
+}
+
+body.dark .contact-form label {
+  color: #9baec8;
+}
+
+body.dark .contact-form input[type="text"],
+body.dark .contact-form input[type="email"],
+body.dark .contact-form textarea {
+  background-color: #1a1a1a;
+  border-color: #444;
+  color: #fff;
+}
+
+body.dark .contact-form button {
+  background-color: #444;
+  color: #fff;
+}
+
+body.dark .contact-form button:hover,
+body.dark .contact-form button:focus {
+  background-color: #555;
+}

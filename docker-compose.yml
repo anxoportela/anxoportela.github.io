@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    container_name: anxoportela-hugo
+    volumes:
+      - .:/src
+    ports:
+      - "1313:1313"
+    command: server -D --bind 0.0.0.0
+    restart: unless-stopped
+
+  # Production build server (optional)
+  production:
+    build: .
+    container_name: anxoportela-prod
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    profiles:
+      - production

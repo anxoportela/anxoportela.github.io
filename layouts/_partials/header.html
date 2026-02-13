@@ -1,0 +1,81 @@
+{{ $lang := "en" }}
+{{ if hasPrefix .Page.RelPermalink "/es/" }}
+  {{ $lang = "es" }}
+{{ else if hasPrefix .Page.RelPermalink "/pt-br/" }}
+  {{ $lang = "pt-br" }}
+{{ end }}
+<nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="{{ if eq $lang "en" }}/{{ else }}/{{ $lang }}/{{ end }}">
+      {{ .Site.Title }}
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle">
+      <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+    </label>
+    <ul class="navigation-list">
+      {{ if eq $lang "en" }}
+      <li class="navigation-item">
+        <a class="navigation-link" href="/about/">About</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/posts/">Blog</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/projects/">Projects</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/gigs/">Gigs</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/contact/">Contact</a>
+      </li>
+      {{ else if eq $lang "es" }}
+      <li class="navigation-item">
+        <a class="navigation-link" href="/es/about/">Sobre mí</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/es/posts/">Blog</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/es/projects/">Proyectos</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/es/gigs/">Servicios</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/es/contact/">Contacto</a>
+      </li>
+      {{ else if eq $lang "pt-br" }}
+      <li class="navigation-item">
+        <a class="navigation-link" href="/pt-br/about/">Sobre</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/pt-br/posts/">Blog</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/pt-br/projects/">Projetos</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/pt-br/gigs/">Serviços</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="/pt-br/contact/">Contato</a>
+      </li>
+      {{ end }}
+      {{ if hugo.IsMultilingual }}
+        <li class="navigation-item menu-separator"><span>|</span></li>
+        {{ if eq $lang "en" }}
+          <li class="navigation-item"><a href="/es/">🇪🇸</a></li>
+          <li class="navigation-item"><a href="/pt-br/">🇧🇷</a></li>
+        {{ else if eq $lang "es" }}
+          <li class="navigation-item"><a href="/">🇬🇧</a></li>
+          <li class="navigation-item"><a href="/pt-br/">🇧🇷</a></li>
+        {{ else if eq $lang "pt-br" }}
+          <li class="navigation-item"><a href="/">🇬🇧</a></li>
+          <li class="navigation-item"><a href="/es/">🇪🇸</a></li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+</nav>

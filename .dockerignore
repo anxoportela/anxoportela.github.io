@@ -1,0 +1,29 @@
+# Git
+.git
+.gitmodules
+
+# Hugo build files (not needed in final image)
+README.md
+Makefile
+Dockerfile
+.dockerignore
+nginx.conf
+
+# Development files
+.env
+.env.*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/

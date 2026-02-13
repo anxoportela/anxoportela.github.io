@@ -1,0 +1,35 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+dist/
+
+# Theme (managed as submodule)
+themes/hugo-coder/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node/npm (if used)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output (if different from public)
+# uncoment if needed:
+# .output/
+
+# Temporary files
+tmp/
+temp/

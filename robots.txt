@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://anxoportela.github.io/sitemap.xml
+
+# Disallow admin/private areas
+Disallow: /404.html
+Disallow: /authors/
+Disallow: /categories/page/
+Disallow: /series/page/
+Disallow: /tags/page/

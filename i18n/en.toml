@@ -1,0 +1,80 @@
+[home]
+other = "Home"
+
+[about]
+other = "About"
+
+[posts]
+other = "Blog"
+
+[projects]
+other = "Projects"
+
+[gigs]
+other = "Services"
+
+[contact]
+other = "Contact"
+
+[readMore]
+other = "Read more..."
+
+[viewAll]
+other = "View all"
+
+[latestPosts]
+other = "Latest Posts"
+
+[latestProjects]
+other = "Latest Projects"
+
+[subscribe]
+other = "Subscribe"
+
+[email]
+other = "Email"
+
+[submit]
+other = "Submit"
+
+[name]
+other = "Name"
+
+[message]
+other = "Message"
+
+[search]
+other = "Search"
+
+[noResults]
+other = "No results found"
+
+[loading]
+other = "Loading..."
+
+[postedOn]
+other = "Posted on"
+
+[by]
+other = "by"
+
+[tags]
+other = "Tags"
+
+[categories]
+other = "Categories"
+
+[seeAlso]
+other = "See also"
+
+[translations]
+other = "Translations"
+
+[menu]
+other = "Menu"
+
+[close]
+other = "Close"
+
+[backToTop]
+other = "Back to top"
