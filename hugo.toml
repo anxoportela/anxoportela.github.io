@@ -28,9 +28,6 @@ unsafe = true
 [minify]
 minifyOutput = true
 
-[social]
-  twitter = "anxoportela"
-
 [RSS]
   # Enable RSS feed for all content types
   enable = true
