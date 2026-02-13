@@ -26,10 +26,17 @@ node_modules/
 package-lock.json
 yarn.lock
 
-# Build output (if different from public)
-# uncoment if needed:
-# .output/
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build output
+.output/
 
 # Temporary files
 tmp/
 temp/
+
+# Test coverage
+coverage/
