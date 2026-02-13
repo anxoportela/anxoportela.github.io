@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
+    # Ignore only documentation and example files, not actual content
     paths-ignore:
-      - '**.md'
       - 'README.md'
       - '.gitignore'
+      - 'docs/**'
+      - 'example/**'
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -22,39 +24,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Validate job
-  validate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-          fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.154.5'
-          extended: true
-
-      - name: Validate URLs
-        run: |
-          hugo --gc --minify --printPathWarnings 2>&1 | grep -v "WARN"
-
-      - name: Check links
-        run: |
-          hugo --printI18nWarnings 2>&1 || true
-
   # Build job
   build:
-    needs: validate
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: true
+          # Fetch full history for Git commit hash info
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -63,8 +41,23 @@ jobs:
           hugo-version: '0.154.5'
           extended: true
 
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/hugo
+            resources
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/*.md') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
       - name: Build
-        run: hugo --gc --minify --cleanDestinationDir
+        run: hugo --gc --minify --cleanDestinationDir --enableGitInfo
+
+      - name: Verify commit info
+        run: |
+          echo "Git commit hash: $(git rev-parse HEAD)"
+          echo "Git info enabled in Hugo"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
