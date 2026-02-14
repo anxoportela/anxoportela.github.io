@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Anxo Portela</title><link>https://anxoportela.github.io/pt-br/posts/</link><description>Recent content in Blog on Anxo Portela</description><generator>Hugo</generator><language>en</language><atom:link href="https://anxoportela.github.io/pt-br/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 Guia de Testes de Desempenho: Do Zero ao Herói</title><link>https://anxoportela.github.io/pt-br/posts/guia-testes-desempenho/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/guia-testes-desempenho/</guid><description>&lt;h1 id="-guia-de-testes-de-desempenho-do-zero-ao-herói"&gt;
+ 🚀 Guia de Testes de Desempenho: Do Zero ao Herói
+ &lt;a class="heading-link" href="#-guia-de-testes-de-desempenho-do-zero-ao-her%c3%b3i"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Testes de desempenho são críticos para entregar aplicações rápidas e confiáveis que proporcionam excelentes experiências de usuário. Neste guia completo, exploramos tudo o que você precisa saber sobre testes de desempenho, desde conceitos básicos até técnicas avançadas. Vamos mergulhar! 🏊‍♂️&lt;/p&gt;
+&lt;h2 id="por-que-testes-de-desempenho-são-importantes-"&gt;
+ Por Que Testes de Desempenho São Importantes 💡
+ &lt;a class="heading-link" href="#por-que-testes-de-desempenho-s%c3%a3o-importantes-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;No mundo digital atual, os usuários esperam aplicações ultrarrápidas. Um atraso de apenas um segundo pode resultar em quedas significativas no engajamento e conversões. Testes de desempenho ajudam a:&lt;/p&gt;</description></item><item><title>📝 Padrões de Design de Casos de Teste</title><link>https://anxoportela.github.io/pt-br/posts/padroes-design-casos-teste/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/padroes-design-casos-teste/</guid><description>&lt;h1 id="-padrões-de-design-de-casos-de-teste"&gt;
+ 📝 Padrões de Design de Casos de Teste
+ &lt;a class="heading-link" href="#-padr%c3%b5es-de-design-de-casos-de-teste"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Casos de teste bem projetados são a base de testes eficazes. Este guia abrangente cobre padrões comprovados para criar casos de teste mantenciveis, abrangentes e legíveis. 💪&lt;/p&gt;
+&lt;h2 id="por-que-padrões-importam-"&gt;
+ Por Que Padrões Importam 💡
+ &lt;a class="heading-link" href="#por-que-padr%c3%b5es-importam-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Bons padrões de design de testes ajudam você a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Escrever testes mais eficazes&lt;/strong&gt; - Intenção clara leva a melhor cobertura&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Reduzir manutenção de testes&lt;/strong&gt; - Testes bem estruturados são mais fáceis de atualizar&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Melhorar cobertura de testes&lt;/strong&gt; - Padrões ajudam a identificar casos extremos&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Fazer testes mais fáceis de entender&lt;/strong&gt; - Equipes podem compreender rapidamente a lógica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="o-padrão-arrange-act-assert-aaa-"&gt;
+ O Padrão Arrange-Act-Assert (AAA) 🎯
+ &lt;a class="heading-link" href="#o-padr%c3%a3o-arrange-act-assert-aaa-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;O padrão mais utilizado para estruturar testes unitários.&lt;/p&gt;</description></item><item><title>🛡️ Fundamentos de Testes de Segurança</title><link>https://anxoportela.github.io/pt-br/posts/fundamentos-testes-seguranca/</link><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/fundamentos-testes-seguranca/</guid><description>&lt;h1 id="-fundamentos-de-testes-de-segurança"&gt;
+ 🛡️ Fundamentos de Testes de Segurança
+ &lt;a class="heading-link" href="#-fundamentos-de-testes-de-seguran%c3%a7a"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Em uma era onde vazamentos de dados são notícia diária, testes de segurança não são mais opcionais—são uma parte crítica do desenvolvimento de software. Este guia cobre os fundamentos dos testes de segurança para aplicações modernas. 🚨&lt;/p&gt;
+&lt;h2 id="por-que-testes-de-segurança-importam-"&gt;
+ Por Que Testes de Segurança Importam 💡
+ &lt;a class="heading-link" href="#por-que-testes-de-seguran%c3%a7a-importam-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;As estatísticas são alarmantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💰 Custo médio de um vazamento de dados: $4.45 milhões&lt;/li&gt;
+&lt;li&gt;⚠️ 95% das violações de cibersegurança são causadas por erro humano&lt;/li&gt;
+&lt;li&gt;📊 Mais de 22 bilhões de registros foram expostos apenas em 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Testes de segurança ajudam a:&lt;/p&gt;</description></item><item><title>🔮 Tendências de Testing 2026: O que Observar</title><link>https://anxoportela.github.io/pt-br/posts/tendencias-testing-2026/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/tendencias-testing-2026/</guid><description>&lt;h1 id="-tendências-de-testing-2026-o-que-observar"&gt;
+ 🔮 Tendências de Testing 2026: O que Observar
+ &lt;a class="heading-link" href="#-tend%c3%aancias-de-testing-2026-o-que-observar"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;O cenário de testing está evoluindo em um ritmo sem precedentes. À medida que avançamos em 2026, várias tendências importantes estão remodelando como abordamos a garantia de qualidade. Vamos mergulhar no que está moldando o futuro do testing. 🚀&lt;/p&gt;
+&lt;h2 id="testing-impulsionado-por-ia-o-novo-normal-"&gt;
+ Testing Impulsionado por IA: O Novo Normal 🤖
+ &lt;a class="heading-link" href="#testing-impulsionado-por-ia-o-novo-normal-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;A Inteligência Artificial fez a transição de palavra da moda para parte fundamental dos fluxos de trabalho de testing.&lt;/p&gt;</description></item><item><title>🤖 IA em Automação de QA: O Futuro dos Testes</title><link>https://anxoportela.github.io/pt-br/posts/ia-automatizacao-qa/</link><pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/ia-automatizacao-qa/</guid><description>&lt;h1 id="-ia-em-automação-de-qa-o-futuro-dos-testes"&gt;
+ 🤖 IA em Automação de QA: O Futuro dos Testes
+ &lt;a class="heading-link" href="#-ia-em-automa%c3%a7%c3%a3o-de-qa-o-futuro-dos-testes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A Inteligência Artificial está transformando todos os aspectos do desenvolvimento de software, e a automação de QA não é exceção. Neste guia completo, explorarei como a IA está remodelando o cenário de testes e o que isso significa para profissionais de QA em 2026 e além. 🚀&lt;/p&gt;
+&lt;h2 id="o-estado-atual-da-ia-em-testes-"&gt;
+ O Estado Atual da IA em Testes 🤖
+ &lt;a class="heading-link" href="#o-estado-atual-da-ia-em-testes-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Ferramentas de teste alimentadas por IA evoluíram significativamente nos últimos anos. Desde a geração inteligente de testes até a análise preditiva de defeitos, a IA está ajudando as equipes a entregar melhor software mais rapidamente. A transformação foi notável, passando de simples scripts de automação para sistemas inteligentes que podem aprender e se adaptar.&lt;/p&gt;</description></item><item><title>🎭 Melhores Práticas de Playwright para Testes Empresariais em 2026</title><link>https://anxoportela.github.io/pt-br/posts/playwright-best-practices-2026/</link><pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/playwright-best-practices-2026/</guid><description>&lt;h1 id="-melhores-práticas-de-playwright-para-testes-empresariais-em-2026"&gt;
+ 🎭 Melhores Práticas de Playwright para Testes Empresariais em 2026
+ &lt;a class="heading-link" href="#-melhores-pr%c3%a1ticas-de-playwright-para-testes-empresariais-em-2026"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;À medida que as organizações adotam frameworks de teste modernos, o Playwright emergiu como uma escolha líder para testes end-to-end. Aqui está meu guia completo para implementar Playwright em escala. 🚀&lt;/p&gt;
+&lt;h2 id="-por-que-playwright"&gt;
+ ❓ Por que Playwright?
+ &lt;a class="heading-link" href="#-por-que-playwright"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;O Playwright oferece várias vantagens que o tornam ideal para testes empresariais:&lt;/p&gt;</description></item><item><title>👔 Construindo uma Equipe de QA de Classe Mundial: Lições de Liderança</title><link>https://anxoportela.github.io/pt-br/posts/qa-leadership-strategy/</link><pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/qa-leadership-strategy/</guid><description>&lt;h1 id="-construindo-uma-equipe-de-qa-de-classe-mundial-lições-de-liderança"&gt;
+ 👔 Construindo uma Equipe de QA de Classe Mundial: Lições de Liderança
+ &lt;a class="heading-link" href="#-construindo-uma-equipe-de-qa-de-classe-mundial-li%c3%a7%c3%b5es-de-lideran%c3%a7a"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Após mais de 14 anos na indústria de qualidade de software, aprendi que ótimas equipes de QA não são construídas da noite para o dia—são cultivadas através de liderança intencional, visão clara e investimento contínuo em pessoas. 🌟&lt;/p&gt;
+&lt;h2 id="-o-manifesto-do-líder-de-qa"&gt;
+ 📜 O Manifesto do Líder de QA
+ &lt;a class="heading-link" href="#-o-manifesto-do-l%c3%adder-de-qa"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Como líderes de QA, nosso papel evoluiu além dos testes. Agora somos parceiros estratégicos na entrega de valor aos clientes. Isto é o que aprendi:&lt;/p&gt;</description></item><item><title>⚙️ Implementando Quality Gates em Pipelines CI/CD</title><link>https://anxoportela.github.io/pt-br/posts/ci-cd-quality-gates/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/ci-cd-quality-gates/</guid><description>&lt;h1 id="-implementando-quality-gates-em-pipelines-cicd"&gt;
+ ⚙️ Implementando Quality Gates em Pipelines CI/CD
+ &lt;a class="heading-link" href="#-implementando-quality-gates-em-pipelines-cicd"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Quality gates são pontos de verificação automatizados no seu pipeline CI/CD que garantem que o código atenda aos padrões de qualidade antes de avançar para o próximo estágio. Veja como implementar quality gates eficazes. 🚀&lt;/p&gt;
+&lt;h2 id="-o-que-são-quality-gates"&gt;
+ ❓ O que são Quality Gates?
+ &lt;a class="heading-link" href="#-o-que-s%c3%a3o-quality-gates"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Quality gates agem como filtros que:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Impedem código problemático de avançar&lt;/li&gt;
+&lt;li&gt;✅ Fornecem feedback rápido aos desenvolvedores&lt;/li&gt;
+&lt;li&gt;✅ Aplicam padrões organizacionais&lt;/li&gt;
+&lt;li&gt;✅ Protegem o ambiente de produção&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-uma-estratégia-prática-de-quality-gates"&gt;
+ 📋 Uma Estratégia Prática de Quality Gates
+ &lt;a class="heading-link" href="#-uma-estrat%c3%a9gia-pr%c3%a1tica-de-quality-gates"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="estágio-1-quality-gates-de-código-"&gt;
+ Estágio 1: Quality Gates de Código 🔍
+ &lt;a class="heading-link" href="#est%c3%a1gio-1-quality-gates-de-c%c3%b3digo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# Linting e formatação&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Executar linters&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="sd"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; npm run lint
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; npm run format:check
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; &lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Análise SonarCloud&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;sonarsource/sonarcloud-github-action@master&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;env&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;SONAR_TOKEN&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;${{ secrets.SONAR_TOKEN }}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="estágio-2-quality-gates-de-testes-unitários-"&gt;
+ Estágio 2: Quality Gates de Testes Unitários 🧪
+ &lt;a class="heading-link" href="#est%c3%a1gio-2-quality-gates-de-testes-unit%c3%a1rios-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# Testes unitários com limite de cobertura&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Executar Testes Unitários&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;npm run test:coverage&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Verificar Cobertura&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;|&lt;/span&gt;&lt;span class="sd"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; COVERAGE=$(cat coverage/coverage-summary.json | jq &amp;#39;.total.lines.pct&amp;#39;)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; if (( $(echo &amp;#34;$COVERAGE &amp;lt; 80&amp;#34; | bc -l) )); then
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; echo &amp;#34;Cobertura $COVERAGE% está abaixo do limite 80%&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; exit 1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sd"&gt; fi&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="estágio-3-quality-gates-de-segurança-"&gt;
+ Estágio 3: Quality Gates de Segurança 🛡️
+ &lt;a class="heading-link" href="#est%c3%a1gio-3-quality-gates-de-seguran%c3%a7a-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# Varredura de dependências&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Auditoria de Segurança&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;npm audit --audit-level=high&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Varredura de Segurança&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;uses&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;snyk/actions/node@master&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;env&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;SNYK_TOKEN&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;${{ secrets.SNYK_TOKEN }}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="estágio-4-quality-gates-de-testes-de-integração-"&gt;
+ Estágio 4: Quality Gates de Testes de Integração 🔗
+ &lt;a class="heading-link" href="#est%c3%a1gio-4-quality-gates-de-testes-de-integra%c3%a7%c3%a3o-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# Testes API&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Executar Testes API&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;npm run test:api&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="estágio-5-quality-gates-e2e-"&gt;
+ Estágio 5: Quality Gates E2E 🎭
+ &lt;a class="heading-link" href="#est%c3%a1gio-5-quality-gates-e2e-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# Testes smoke&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Executar Testes Smoke&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;run&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;npx playwright test --grep &amp;#34;@smoke&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="-métricas-de-quality-gates"&gt;
+ 📊 Métricas de Quality Gates
+ &lt;a class="heading-link" href="#-m%c3%a9tricas-de-quality-gates"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Rastreie estas métricas para melhorar seus gates:&lt;/p&gt;</description></item><item><title>🔌 Dominando Testes de API com Postman</title><link>https://anxoportela.github.io/pt-br/posts/api-testing-postman/</link><pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/api-testing-postman/</guid><description>&lt;h1 id="-dominando-testes-de-api-com-postman"&gt;
+ 🔌 Dominando Testes de API com Postman
+ &lt;a class="heading-link" href="#-dominando-testes-de-api-com-postman"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Testes de API são a fundação da qualidade moderna de software. Neste guia, compartilharei minha abordagem para testes abrangentes de API usando Postman e automatizando com Newman. 🚀&lt;/p&gt;
+&lt;h2 id="-por-que-testes-de-api-são-importantes"&gt;
+ ⚡ Por que Testes de API São Importantes
+ &lt;a class="heading-link" href="#-por-que-testes-de-api-s%c3%a3o-importantes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;APIs são a espinha dorsal das aplicações modernas. Segundo pesquisas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 83% do tempo de testes é gasto em verificação de API&lt;/li&gt;
+&lt;li&gt;🎯 Testes antecipados de API capturam 60% dos defeitos antes da UI&lt;/li&gt;
+&lt;li&gt;⚡ Testes de API são 10x mais rápidos que testes de UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-configurando-sua-estrutura-de-testes-de-api"&gt;
+ 🛠️ Configurando Sua Estrutura de Testes de API
+ &lt;a class="heading-link" href="#-configurando-sua-estrutura-de-testes-de-api"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="1-gerenciamento-de-ambientes"&gt;
+ 1. Gerenciamento de Ambientes
+ &lt;a class="heading-link" href="#1-gerenciamento-de-ambientes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Crie ambientes para diferentes stages:&lt;/p&gt;</description></item><item><title>🚀 Começando com Hugo</title><link>https://anxoportela.github.io/pt-br/posts/getting-started-with-hugo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/getting-started-with-hugo/</guid><description>&lt;h1 id="-começando-com-hugo"&gt;
+ 🚀 Começando com Hugo
+ &lt;a class="heading-link" href="#-come%c3%a7ando-com-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hugo é um gerador de sites estáticos rápido e flexível. Nesta postagem, mostrarei como criar um site pessoal usando Hugo. 🏗️&lt;/p&gt;
+&lt;h2 id="por-que-hugo-"&gt;
+ Por que Hugo? 🤔
+ &lt;a class="heading-link" href="#por-que-hugo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Velocidade&lt;/strong&gt;: Hugo é incrivelmente rápido ⚡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibilidade&lt;/strong&gt;: Ampla gama de temas 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sem dependências&lt;/strong&gt;: Instalação de binário único 📦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Escreva conteúdo em Markdown ✍️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="instalação"&gt;
+ Instalação
+ &lt;a class="heading-link" href="#instala%c3%a7%c3%a3o"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;choco install hugo -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="criando-um-novo-site"&gt;
+ Criando um Novo Site
+ &lt;a class="heading-link" href="#criando-um-novo-site"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site meu-site
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; meu-site
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="conclusão"&gt;
+ Conclusão
+ &lt;a class="heading-link" href="#conclus%c3%a3o"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo é uma excelente escolha para construir sites estáticos. Fique atento para mais tutoriais! 📚&lt;/p&gt;</description></item></channel></rss>

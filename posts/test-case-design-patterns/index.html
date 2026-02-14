@@ -1,0 +1,325 @@
+<!doctype html><html lang=en><head><title>📝 Test Case Design Patterns · Anxo Portela</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=author content="Anxo Portela"><meta name=description content="Proven patterns for writing effective test cases"><meta name=keywords content="blog,developer,personal,devops"><meta name=twitter:card content="summary"><meta name=twitter:title content="📝 Test Case Design Patterns"><meta name=twitter:description content="Proven patterns for writing effective test cases"><meta property="og:url" content="https://anxoportela.github.io/posts/test-case-design-patterns/"><meta property="og:site_name" content="Anxo Portela"><meta property="og:title" content="📝 Test Case Design Patterns"><meta property="og:description" content="Proven patterns for writing effective test cases"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="posts"><meta property="article:published_time" content="2026-01-26T00:00:00+00:00"><meta property="article:modified_time" content="2026-02-14T22:02:20+01:00"><meta property="article:tag" content="Testing"><meta property="article:tag" content="Design-Patterns"><meta property="article:tag" content="Test-Cases"><meta property="article:tag" content="Best-Practices"><link rel=canonical href=https://anxoportela.github.io/posts/test-case-design-patterns/><link rel=preload href=/fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.4b392a85107b91dbdabc528edf014a6ab1a30cd44cafcd5325c8efe796794fca.css integrity="sha256-SzkqhRB7kdvavFKO3wFKarGjDNRMr81TJcjv55Z5T8o=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/custom.min.e058db845114788b6a51287b6b967a94acbc4b60afd6ba68425a8d821797d4cd.css integrity="sha256-4FjbhFEUeItqUSh7a5Z6lKy8S2Cv1rpoQlqNgheX1M0=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=/images/favicon.svg sizes=any><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Anxo Portela
+</a><input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/about/>About</a></li><li class=navigation-item><a class=navigation-link href=/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/projects/>Projects</a></li><li class=navigation-item><a class=navigation-link href=/gigs/>Gigs</a></li><li class=navigation-item><a class=navigation-link href=/contact/>Contact</a></li><li class=navigation-item><a class=navigation-link href=/search/><i class="fa-solid fa-search"></i></a></li><li class="navigation-item menu-separator"><span>|</span></li><li class=navigation-item><a href=/es/>🇪🇸</a></li><li class=navigation-item><a href=/pt-br/>🇧🇷</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://anxoportela.github.io/posts/test-case-design-patterns/>📝 Test Case Design Patterns</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa-solid fa-calendar" aria-hidden=true></i>
+<time datetime=2026-01-26T00:00:00Z>January 26, 2026
+</time></span><span class=reading-time><i class="fa-solid fa-clock" aria-hidden=true></i>
+6-minute read</span></div><div class=categories><i class="fa-solid fa-folder" aria-hidden=true></i>
+<a href=/categories/test-design/>Test Design</a></div><div class=tags><i class="fa-solid fa-tag" aria-hidden=true></i>
+<span class=tag><a href=/tags/testing/>Testing</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/design-patterns/>Design-Patterns</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/test-cases/>Test-Cases</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/best-practices/>Best-Practices</a></span></div></div></header><div class=post-content><h1 id=-test-case-design-patterns>📝 Test Case Design Patterns
+<a class=heading-link href=#-test-case-design-patterns><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h1><p>Well-designed test cases are the foundation of effective testing. This comprehensive guide covers proven patterns for creating maintainable, comprehensive, and readable test cases. 💪</p><h2 id=why-design-patterns-matter>Why Design Patterns Matter
+<a class=heading-link href=#why-design-patterns-matter><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Good test design patterns help you:</p><ul><li>✨ <strong>Write more effective tests</strong> - Clear intent leads to better coverage</li><li>🔧 <strong>Reduce test maintenance</strong> - Well-structured tests are easier to update</li><li>📊 <strong>Improve test coverage</strong> - Patterns help identify edge cases</li><li>👀 <strong>Make tests easier to understand</strong> - Teams can quickly comprehend test logic</li></ul><h2 id=the-arrange-act-assert-aaa-pattern>The Arrange-Act-Assert (AAA) Pattern
+<a class=heading-link href=#the-arrange-act-assert-aaa-pattern><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>The most widely used pattern for structuring unit tests.</p><h3 id=structure>Structure
+<a class=heading-link href=#structure><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_user_registration</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=c1># Arrange</span>
+</span></span><span class=line><span class=cl>    <span class=n>user_data</span> <span class=o>=</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=s1>&#39;username&#39;</span><span class=p>:</span> <span class=s1>&#39;testuser&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=s1>&#39;email&#39;</span><span class=p>:</span> <span class=s1>&#39;test@example.com&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=s1>&#39;password&#39;</span><span class=p>:</span> <span class=s1>&#39;SecurePass123!&#39;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=n>db</span> <span class=o>=</span> <span class=n>Database</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=c1># Act</span>
+</span></span><span class=line><span class=cl>    <span class=n>result</span> <span class=o>=</span> <span class=n>register_user</span><span class=p>(</span><span class=n>user_data</span><span class=p>,</span> <span class=n>db</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=c1># Assert</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>result</span><span class=o>.</span><span class=n>success</span> <span class=ow>is</span> <span class=kc>True</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>result</span><span class=o>.</span><span class=n>user_id</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>db</span><span class=o>.</span><span class=n>user_exists</span><span class=p>(</span><span class=s1>&#39;testuser&#39;</span><span class=p>)</span>
+</span></span></code></pre></div><h3 id=why-aaa-works>Why AAA Works
+<a class=heading-link href=#why-aaa-works><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><ul><li><strong>Clear separation</strong> - Each phase has a specific purpose</li><li><strong>Readable</strong> - Anyone can understand the test flow</li><li><strong>Maintainable</strong> - Easy to identify which part needs updating</li></ul><h3 id=best-practices-for-aaa>Best Practices for AAA
+<a class=heading-link href=#best-practices-for-aaa><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><ol><li><strong>Keep arrange short</strong> - Use test data factories</li><li><strong>One action per test</strong> - Don&rsquo;t test multiple operations</li><li><strong>Comprehensive assertions</strong> - Test both positive and negative cases</li></ol><h2 id=the-given-when-then-gwt-pattern>The Given-When-Then (GWT) Pattern
+<a class=heading-link href=#the-given-when-then-gwt-pattern><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Popular in Behavior-Driven Development (BDD), great for acceptance tests.</p><h3 id=structure-1>Structure
+<a class=heading-link href=#structure-1><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-gherkin data-lang=gherkin><span class=line><span class=cl><span class=k>Feature:</span><span class=nf> User Login
+</span></span></span><span class=line><span class=cl><span class=nf>
+</span></span></span><span class=line><span class=cl><span class=nf>  </span><span class=k>Scenario:</span><span class=nf> Successful login with valid credentials
+</span></span></span><span class=line><span class=cl><span class=k>    Given </span><span class=nf>the user is on the login page
+</span></span></span><span class=line><span class=cl><span class=nf>    </span><span class=k>And </span><span class=nf>the user has valid credentials
+</span></span></span><span class=line><span class=cl><span class=nf>    </span><span class=k>When </span><span class=nf>the user enters correct username and password
+</span></span></span><span class=line><span class=cl><span class=nf>    </span><span class=k>And </span><span class=nf>clicks the login button
+</span></span></span><span class=line><span class=cl><span class=nf>    </span><span class=k>Then </span><span class=nf>the user should be redirected to the dashboard
+</span></span></span><span class=line><span class=cl><span class=nf>    </span><span class=k>And </span><span class=nf>see a welcome message
+</span></span></span></code></pre></div><h3 id=implementing-gwt-in-code>Implementing GWT in Code
+<a class=heading-link href=#implementing-gwt-in-code><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=c1>// JavaScript/Playwright example
+</span></span></span><span class=line><span class=cl><span class=nx>test</span><span class=p>(</span><span class=s1>&#39;successful login&#39;</span><span class=p>,</span> <span class=kr>async</span> <span class=p>({</span> <span class=nx>page</span> <span class=p>})</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=c1>// Given
+</span></span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=kr>goto</span><span class=p>(</span><span class=s1>&#39;/login&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  <span class=c1>// When
+</span></span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>fill</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;username&#34;]&#39;</span><span class=p>,</span> <span class=s1>&#39;testuser&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>fill</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;password&#34;]&#39;</span><span class=p>,</span> <span class=s1>&#39;password123&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>click</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;login-button&#34;]&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>  <span class=c1>// Then
+</span></span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>expect</span><span class=p>(</span><span class=nx>page</span><span class=p>).</span><span class=nx>toHaveURL</span><span class=p>(</span><span class=s1>&#39;/dashboard&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=kr>await</span> <span class=nx>expect</span><span class=p>(</span><span class=nx>page</span><span class=p>.</span><span class=nx>locator</span><span class=p>(</span><span class=s1>&#39;.welcome-message&#39;</span><span class=p>)).</span><span class=nx>toBeVisible</span><span class=p>();</span>
+</span></span><span class=line><span class=cl><span class=p>});</span>
+</span></span></code></pre></div><h3 id=when-to-use-gwt>When to Use GWT
+<a class=heading-link href=#when-to-use-gwt><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><ul><li>Acceptance testing</li><li>Integration tests</li><li>Feature validation</li><li>Communication with stakeholders</li></ul><h2 id=the-factory-pattern>The Factory Pattern
+<a class=heading-link href=#the-factory-pattern><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Creating test data efficiently using factories.</p><h3 id=simple-factory>Simple Factory
+<a class=heading-link href=#simple-factory><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>UserFactory</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>create</span><span class=p>(</span><span class=o>**</span><span class=n>kwargs</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=n>defaults</span> <span class=o>=</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=s1>&#39;username&#39;</span><span class=p>:</span> <span class=s1>&#39;testuser&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>            <span class=s1>&#39;email&#39;</span><span class=p>:</span> <span class=s1>&#39;test@example.com&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>            <span class=s1>&#39;password&#39;</span><span class=p>:</span> <span class=s1>&#39;SecurePass123!&#39;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>            <span class=s1>&#39;active&#39;</span><span class=p>:</span> <span class=kc>True</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=n>defaults</span><span class=o>.</span><span class=n>update</span><span class=p>(</span><span class=n>kwargs</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>User</span><span class=p>(</span><span class=o>**</span><span class=n>defaults</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=nd>@staticmethod</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>create_batch</span><span class=p>(</span><span class=n>count</span><span class=p>,</span> <span class=o>**</span><span class=n>kwargs</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=p>[</span><span class=n>UserFactory</span><span class=o>.</span><span class=n>create</span><span class=p>(</span><span class=o>**</span><span class=n>kwargs</span><span class=p>)</span> <span class=k>for</span> <span class=n>_</span> <span class=ow>in</span> <span class=nb>range</span><span class=p>(</span><span class=n>count</span><span class=p>)]</span>
+</span></span></code></pre></div><h3 id=using-the-factory>Using the Factory
+<a class=heading-link href=#using-the-factory><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># Create a single user</span>
+</span></span><span class=line><span class=cl><span class=n>user</span> <span class=o>=</span> <span class=n>UserFactory</span><span class=o>.</span><span class=n>create</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Create a user with custom data</span>
+</span></span><span class=line><span class=cl><span class=n>admin</span> <span class=o>=</span> <span class=n>UserFactory</span><span class=o>.</span><span class=n>create</span><span class=p>(</span><span class=n>username</span><span class=o>=</span><span class=s1>&#39;admin&#39;</span><span class=p>,</span> <span class=n>role</span><span class=o>=</span><span class=s1>&#39;admin&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Create multiple users</span>
+</span></span><span class=line><span class=cl><span class=n>users</span> <span class=o>=</span> <span class=n>UserFactory</span><span class=o>.</span><span class=n>create_batch</span><span class=p>(</span><span class=mi>10</span><span class=p>)</span>
+</span></span></code></pre></div><h3 id=benefits>Benefits
+<a class=heading-link href=#benefits><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><ul><li><strong>Consistency</strong> - Same data structure across tests</li><li><strong>Flexibility</strong> - Override defaults easily</li><li><strong>Reusability</strong> - Share across test files</li></ul><h2 id=the-builder-pattern>The Builder Pattern
+<a class=heading-link href=#the-builder-pattern><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Construct complex test objects step by step.</p><h3 id=implementation>Implementation
+<a class=heading-link href=#implementation><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=kd>public</span><span class=w> </span><span class=kd>class</span> <span class=nc>UserBuilder</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=n>String</span><span class=w> </span><span class=n>username</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>&#34;defaultuser&#34;</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=n>String</span><span class=w> </span><span class=n>email</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=s>&#34;default@example.com&#34;</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=n>List</span><span class=o>&lt;</span><span class=n>String</span><span class=o>&gt;</span><span class=w> </span><span class=n>roles</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>ArrayList</span><span class=o>&lt;&gt;</span><span class=p>();</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>private</span><span class=w> </span><span class=kt>boolean</span><span class=w> </span><span class=n>active</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=kc>true</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=n>UserBuilder</span><span class=w> </span><span class=nf>withUsername</span><span class=p>(</span><span class=n>String</span><span class=w> </span><span class=n>username</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>username</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>username</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=n>UserBuilder</span><span class=w> </span><span class=nf>withEmail</span><span class=p>(</span><span class=n>String</span><span class=w> </span><span class=n>email</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>email</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>email</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=n>UserBuilder</span><span class=w> </span><span class=nf>withRole</span><span class=p>(</span><span class=n>String</span><span class=w> </span><span class=n>role</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>roles</span><span class=p>.</span><span class=na>add</span><span class=p>(</span><span class=n>role</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=n>UserBuilder</span><span class=w> </span><span class=nf>inactive</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>this</span><span class=p>.</span><span class=na>active</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=kc>false</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>this</span><span class=p>;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=kd>public</span><span class=w> </span><span class=n>User</span><span class=w> </span><span class=nf>build</span><span class=p>()</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=k>return</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>User</span><span class=p>(</span><span class=n>username</span><span class=p>,</span><span class=w> </span><span class=n>email</span><span class=p>,</span><span class=w> </span><span class=n>roles</span><span class=p>,</span><span class=w> </span><span class=n>active</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><h3 id=using-the-builder>Using the Builder
+<a class=heading-link href=#using-the-builder><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=c1>// Simple user</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=n>User</span><span class=w> </span><span class=n>user</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>UserBuilder</span><span class=p>().</span><span class=na>build</span><span class=p>();</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=c1>// Admin user with custom email</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=n>User</span><span class=w> </span><span class=n>admin</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>UserBuilder</span><span class=p>()</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>withUsername</span><span class=p>(</span><span class=s>&#34;admin&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>withEmail</span><span class=p>(</span><span class=s>&#34;admin@company.com&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>withRole</span><span class=p>(</span><span class=s>&#34;admin&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>withRole</span><span class=p>(</span><span class=s>&#34;moderator&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>build</span><span class=p>();</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=c1>// Inactive user</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=n>User</span><span class=w> </span><span class=n>inactiveUser</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=k>new</span><span class=w> </span><span class=n>UserBuilder</span><span class=p>()</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>withUsername</span><span class=p>(</span><span class=s>&#34;inactive&#34;</span><span class=p>)</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>inactive</span><span class=p>()</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=p>.</span><span class=na>build</span><span class=p>();</span><span class=w>
+</span></span></span></code></pre></div><h2 id=parameterized-tests>Parameterized Tests
+<a class=heading-link href=#parameterized-tests><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Run the same test with different inputs.</p><h3 id=python-example>Python Example
+<a class=heading-link href=#python-example><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>pytest</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@pytest.mark.parametrize</span><span class=p>(</span><span class=s2>&#34;input,expected&#34;</span><span class=p>,</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>    <span class=p>(</span><span class=mi>2</span><span class=p>,</span> <span class=mi>4</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>    <span class=p>(</span><span class=mi>3</span><span class=p>,</span> <span class=mi>9</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>    <span class=p>(</span><span class=mi>5</span><span class=p>,</span> <span class=mi>25</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>    <span class=p>(</span><span class=mi>10</span><span class=p>,</span> <span class=mi>100</span><span class=p>),</span>
+</span></span><span class=line><span class=cl><span class=p>])</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_square</span><span class=p>(</span><span class=nb>input</span><span class=p>,</span> <span class=n>expected</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=nb>input</span> <span class=o>**</span> <span class=mi>2</span> <span class=o>==</span> <span class=n>expected</span>
+</span></span></code></pre></div><h3 id=java-example>Java Example
+<a class=heading-link href=#java-example><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=line><span class=cl><span class=nd>@ParameterizedTest</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nd>@CsvSource</span><span class=p>({</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;admin, admin@example.com, true&#34;</span><span class=p>,</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;user, user@example.com, false&#34;</span><span class=p>,</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=s>&#34;guest, guest@example.com, false&#34;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>})</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=kt>void</span><span class=w> </span><span class=nf>testUserCreation</span><span class=p>(</span><span class=n>String</span><span class=w> </span><span class=n>username</span><span class=p>,</span><span class=w> </span><span class=n>String</span><span class=w> </span><span class=n>email</span><span class=p>,</span><span class=w> </span><span class=kt>boolean</span><span class=w> </span><span class=n>isAdmin</span><span class=p>)</span><span class=w> </span><span class=p>{</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>User</span><span class=w> </span><span class=n>user</span><span class=w> </span><span class=o>=</span><span class=w> </span><span class=n>userService</span><span class=p>.</span><span class=na>create</span><span class=p>(</span><span class=n>username</span><span class=p>,</span><span class=w> </span><span class=n>email</span><span class=p>);</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>assertEquals</span><span class=p>(</span><span class=n>username</span><span class=p>,</span><span class=w> </span><span class=n>user</span><span class=p>.</span><span class=na>getUsername</span><span class=p>());</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>assertEquals</span><span class=p>(</span><span class=n>email</span><span class=p>,</span><span class=w> </span><span class=n>user</span><span class=p>.</span><span class=na>getEmail</span><span class=p>());</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=n>assertEquals</span><span class=p>(</span><span class=n>isAdmin</span><span class=p>,</span><span class=w> </span><span class=n>user</span><span class=p>.</span><span class=na>isAdmin</span><span class=p>());</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=p>}</span><span class=w>
+</span></span></span></code></pre></div><h3 id=playwright-example>Playwright Example
+<a class=heading-link href=#playwright-example><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=kr>const</span> <span class=nx>testCases</span> <span class=o>=</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>  <span class=p>{</span> <span class=nx>username</span><span class=o>:</span> <span class=s1>&#39;admin&#39;</span><span class=p>,</span> <span class=nx>password</span><span class=o>:</span> <span class=s1>&#39;admin123&#39;</span><span class=p>,</span> <span class=nx>expected</span><span class=o>:</span> <span class=s1>&#39;dashboard&#39;</span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>  <span class=p>{</span> <span class=nx>username</span><span class=o>:</span> <span class=s1>&#39;user&#39;</span><span class=p>,</span> <span class=nx>password</span><span class=o>:</span> <span class=s1>&#39;user123&#39;</span><span class=p>,</span> <span class=nx>expected</span><span class=o>:</span> <span class=s1>&#39;home&#39;</span> <span class=p>},</span>
+</span></span><span class=line><span class=cl>  <span class=p>{</span> <span class=nx>username</span><span class=o>:</span> <span class=s1>&#39;invalid&#39;</span><span class=p>,</span> <span class=nx>password</span><span class=o>:</span> <span class=s1>&#39;wrong&#39;</span><span class=p>,</span> <span class=nx>expected</span><span class=o>:</span> <span class=s1>&#39;error&#39;</span> <span class=p>},</span>
+</span></span><span class=line><span class=cl><span class=p>];</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nx>testCases</span><span class=p>.</span><span class=nx>forEach</span><span class=p>(({</span> <span class=nx>username</span><span class=p>,</span> <span class=nx>password</span><span class=p>,</span> <span class=nx>expected</span> <span class=p>})</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=nx>test</span><span class=p>(</span><span class=sb>`login with </span><span class=si>${</span><span class=nx>username</span><span class=si>}</span><span class=sb>`</span><span class=p>,</span> <span class=kr>async</span> <span class=p>({</span> <span class=nx>page</span> <span class=p>})</span> <span class=p>=&gt;</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=kr>goto</span><span class=p>(</span><span class=s1>&#39;/login&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>fill</span><span class=p>(</span><span class=s1>&#39;[name=&#34;username&#34;]&#39;</span><span class=p>,</span> <span class=nx>username</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>fill</span><span class=p>(</span><span class=s1>&#39;[name=&#34;password&#34;]&#39;</span><span class=p>,</span> <span class=nx>password</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>page</span><span class=p>.</span><span class=nx>click</span><span class=p>(</span><span class=s1>&#39;button[type=&#34;submit&#34;]&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=kr>await</span> <span class=nx>expect</span><span class=p>(</span><span class=nx>page</span><span class=p>).</span><span class=nx>toHaveURL</span><span class=p>(</span><span class=sb>`/</span><span class=si>${</span><span class=nx>expected</span><span class=si>}</span><span class=sb>`</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>  <span class=p>});</span>
+</span></span><span class=line><span class=cl><span class=p>});</span>
+</span></span></code></pre></div><h2 id=page-object-model-pom>Page Object Model (POM)
+<a class=heading-link href=#page-object-model-pom><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>A design pattern for web UI automation.</p><h3 id=page-object>Page Object
+<a class=heading-link href=#page-object><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>LoginPage</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>page</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>page</span> <span class=o>=</span> <span class=n>page</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>username_input</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>page</span><span class=o>.</span><span class=n>locator</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;username&#34;]&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>password_input</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>page</span><span class=o>.</span><span class=n>locator</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;password&#34;]&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>login_button</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>page</span><span class=o>.</span><span class=n>locator</span><span class=p>(</span><span class=s1>&#39;[data-testid=&#34;login-button&#34;]&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=nd>@property</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>error_message</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>page</span><span class=o>.</span><span class=n>locator</span><span class=p>(</span><span class=s1>&#39;.error-message&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>login</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=n>username</span><span class=p>,</span> <span class=n>password</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>username_input</span><span class=o>.</span><span class=n>fill</span><span class=p>(</span><span class=n>username</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>password_input</span><span class=o>.</span><span class=n>fill</span><span class=p>(</span><span class=n>password</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>login_button</span><span class=o>.</span><span class=n>click</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=nf>login_as_admin</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>login</span><span class=p>(</span><span class=s1>&#39;admin&#39;</span><span class=p>,</span> <span class=s1>&#39;admin123&#39;</span><span class=p>)</span>
+</span></span></code></pre></div><h3 id=using-the-page-object>Using the Page Object
+<a class=heading-link href=#using-the-page-object><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_login_success</span><span class=p>(</span><span class=n>page</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=n>login_page</span> <span class=o>=</span> <span class=n>LoginPage</span><span class=p>(</span><span class=n>page</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=n>login_page</span><span class=o>.</span><span class=n>goto</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=n>login_page</span><span class=o>.</span><span class=n>login_as_admin</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=n>dashboard</span> <span class=o>=</span> <span class=n>DashboardPage</span><span class=p>(</span><span class=n>page</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>expect</span><span class=p>(</span><span class=n>dashboard</span><span class=o>.</span><span class=n>welcome_message</span><span class=p>)</span><span class=o>.</span><span class=n>to_be_visible</span><span class=p>()</span>
+</span></span></code></pre></div><h2 id=test-data-cleanup-patterns>Test Data Cleanup Patterns
+<a class=heading-link href=#test-data-cleanup-patterns><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Proper cleanup prevents test pollution.</p><h3 id=fixture-based-cleanup>Fixture-Based Cleanup
+<a class=heading-link href=#fixture-based-cleanup><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>pytest</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>database</span> <span class=kn>import</span> <span class=n>Database</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@pytest.fixture</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>clean_database</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>db</span> <span class=o>=</span> <span class=n>Database</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=k>yield</span> <span class=n>db</span>
+</span></span><span class=line><span class=cl>    <span class=c1># Cleanup after test</span>
+</span></span><span class=line><span class=cl>    <span class=n>db</span><span class=o>.</span><span class=n>cleanup_all</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_user_creation</span><span class=p>(</span><span class=n>clean_database</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=n>user</span> <span class=o>=</span> <span class=n>clean_database</span><span class=o>.</span><span class=n>create_user</span><span class=p>(</span><span class=s1>&#39;test&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>clean_database</span><span class=o>.</span><span class=n>user_exists</span><span class=p>(</span><span class=s1>&#39;test&#39;</span><span class=p>)</span>
+</span></span></code></pre></div><h3 id=context-manager-cleanup>Context Manager Cleanup
+<a class=heading-link href=#context-manager-cleanup><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>class</span> <span class=nc>TemporaryFile</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__init__</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=bp>self</span><span class=o>.</span><span class=n>path</span> <span class=o>=</span> <span class=n>create_temp_file</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__enter__</span><span class=p>(</span><span class=bp>self</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=bp>self</span><span class=o>.</span><span class=n>path</span>
+</span></span><span class=line><span class=cl>    
+</span></span><span class=line><span class=cl>    <span class=k>def</span> <span class=fm>__exit__</span><span class=p>(</span><span class=bp>self</span><span class=p>,</span> <span class=o>*</span><span class=n>args</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>        <span class=n>delete_file</span><span class=p>(</span><span class=bp>self</span><span class=o>.</span><span class=n>path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_file_processing</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=k>with</span> <span class=n>TemporaryFile</span><span class=p>()</span> <span class=k>as</span> <span class=n>filepath</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>        <span class=n>result</span> <span class=o>=</span> <span class=n>process_file</span><span class=p>(</span><span class=n>filepath</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>assert</span> <span class=n>result</span><span class=o>.</span><span class=n>success</span>
+</span></span></code></pre></div><h2 id=anti-patterns-to-avoid>Anti-Patterns to Avoid
+<a class=heading-link href=#anti-patterns-to-avoid><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><h3 id=1-test-interdependence>1. Test Interdependence
+<a class=heading-link href=#1-test-interdependence><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># BAD - Tests depend on each other</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_create_user</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>user_id</span> <span class=o>=</span> <span class=n>create_user</span><span class=p>(</span><span class=s1>&#39;test&#39;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>user_id</span> <span class=o>==</span> <span class=mi>1</span>  <span class=c1># Assumes previous test ran</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># GOOD - Each test is independent</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_create_user</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>user_id</span> <span class=o>=</span> <span class=n>create_user</span><span class=p>(</span><span class=s1>&#39;unique_test_user_&#39;</span> <span class=o>+</span> <span class=nb>str</span><span class=p>(</span><span class=n>uuid</span><span class=o>.</span><span class=n>uuid4</span><span class=p>()))</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>user_id</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span>
+</span></span></code></pre></div><h3 id=2-magic-numbers>2. Magic Numbers
+<a class=heading-link href=#2-magic-numbers><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># BAD</span>
+</span></span><span class=line><span class=cl><span class=k>assert</span> <span class=n>response_time</span> <span class=o>&lt;</span> <span class=mi>5000</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># GOOD</span>
+</span></span><span class=line><span class=cl><span class=n>MAX_RESPONSE_TIME_MS</span> <span class=o>=</span> <span class=mi>5000</span>
+</span></span><span class=line><span class=cl><span class=k>assert</span> <span class=n>response_time</span> <span class=o>&lt;</span> <span class=n>MAX_RESPONSE_TIME_MS</span>
+</span></span></code></pre></div><h3 id=3-testing-too-much>3. Testing Too Much
+<a class=heading-link href=#3-testing-too-much><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1># BAD - Multiple assertions, multiple actions</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_everything</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>user</span> <span class=o>=</span> <span class=n>create_user</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=n>login</span><span class=p>(</span><span class=n>user</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>create_project</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=n>add_task</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>everything</span> <span class=n>works</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># GOOD - One action per test</span>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_user_creation</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>user</span> <span class=o>=</span> <span class=n>create_user</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>user</span><span class=o>.</span><span class=n>id</span> <span class=ow>is</span> <span class=ow>not</span> <span class=kc>None</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>test_user_login</span><span class=p>():</span>
+</span></span><span class=line><span class=cl>    <span class=n>user</span> <span class=o>=</span> <span class=n>create_user</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>    <span class=n>session</span> <span class=o>=</span> <span class=n>login</span><span class=p>(</span><span class=n>user</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>assert</span> <span class=n>session</span><span class=o>.</span><span class=n>is_authenticated</span>
+</span></span></code></pre></div><h2 id=summary-when-to-use-each-pattern>Summary: When to Use Each Pattern
+<a class=heading-link href=#summary-when-to-use-each-pattern><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><table><thead><tr><th>Pattern</th><th>Best For</th></tr></thead><tbody><tr><td>AAA</td><td>Unit tests</td></tr><tr><td>GWT</td><td>Acceptance tests, BDD</td></tr><tr><td>Factory</td><td>Test data creation</td></tr><tr><td>Builder</td><td>Complex objects</td></tr><tr><td>Parameterized</td><td>Data-driven tests</td></tr><tr><td>POM</td><td>UI automation</td></tr></tbody></table><h2 id=conclusion>Conclusion
+<a class=heading-link href=#conclusion><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Test design patterns are tools—use the right one for the job. Start simple with AAA, and introduce more complex patterns as needed. The goal is always: readable, maintainable, effective tests.</p><p>Remember: The best test is one that clearly communicates its intent and is easy to maintain.</p><p><strong>Pro Tip:</strong> Use the Builder pattern for complex test objects - it makes your tests much more readable and maintainable. 🏗️</p></div><footer></footer></article></section></div><footer class=footer><section class=container>©
+2025 -
+2026
+Anxo Portela
+·
+Powered by <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.[<a href=#ZgotmplZdfeebd20d9d71e049cd0121eadff0b28d9d7d824 target=_blank rel=noopener>dfeebd2</a>]</section></footer></main><script src=/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script><script src=/js/custom.min.b274de9f1795395b5db340ddee0b00131f6ac3c34bd1e845ff392b67d1c14557.js integrity="sha256-snTenxeVOVtds0Dd7gsAEx9qw8NL0ehF/zkrZ9HBRVc="></script><script async defer data-website-id=04224880-8122-43e6-a3dc-b4fdbe1f6f5b src=https://analytics.umami.is/script.js></script></body></html>

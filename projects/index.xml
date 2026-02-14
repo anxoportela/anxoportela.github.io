@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Anxo Portela</title><link>https://anxoportela.github.io/projects/</link><description>Recent content in Projects on Anxo Portela</description><generator>Hugo</generator><language>en</language><atom:link href="https://anxoportela.github.io/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>⚡ K6 Performance Testing with GitHub Actions</title><link>https://anxoportela.github.io/projects/k6-performance-testing/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/projects/k6-performance-testing/</guid><description>&lt;h1 id="-k6-performance-testing-with-github-actions"&gt;
+ ⚡ K6 Performance Testing with GitHub Actions
+ &lt;a class="heading-link" href="#-k6-performance-testing-with-github-actions"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A performance testing project that uses &lt;strong&gt;K6&lt;/strong&gt; to perform load testing on APIs and &lt;strong&gt;GitHub Actions&lt;/strong&gt; to automate execution within a CI/CD workflow. This repository also includes &lt;strong&gt;10 progressive katas&lt;/strong&gt; for learning K6 from basic to advanced levels. 🚀&lt;/p&gt;
+&lt;h2 id="-key-features"&gt;
+ 🌟 Key Features
+ &lt;a class="heading-link" href="#-key-features"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Feature&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;⚡ K6 Performance Testing&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Modern load testing tool for APIs and websites&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🔄 CI/CD Automation&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Automated execution via GitHub Actions&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📊 Real-time Metrics&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Live performance metrics during test execution&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📦 Artifact Storage&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Test results stored as GitHub artifacts&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🎓 10 Progressive Katas&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Learn K6 from basic to advanced&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🌐 Cross-Platform&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Works on Linux, macOS, and Windows&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-katas-learning-exercises"&gt;
+ 📚 Katas (Learning Exercises)
+ &lt;a class="heading-link" href="#-katas-learning-exercises"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This repository contains &lt;strong&gt;10 progressive katas&lt;/strong&gt; to master K6 performance testing:&lt;/p&gt;</description></item><item><title>🎭 Playwright Saucedemo E2E Testing</title><link>https://anxoportela.github.io/projects/playwright-saucedemo/</link><pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/projects/playwright-saucedemo/</guid><description>&lt;h1 id="-playwright-saucedemo-e2e-testing"&gt;
+ 🎭 Playwright Saucedemo E2E Testing
+ &lt;a class="heading-link" href="#-playwright-saucedemo-e2e-testing"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A comprehensive end-to-end testing project using Playwright for the Saucedemo demo e-commerce website. This project demonstrates industry best practices for automated testing with detailed reporting, Docker containerization, and complete CI/CD integration with GitHub Actions. 🚀&lt;/p&gt;
+&lt;h2 id="-key-features"&gt;
+ 🌟 Key Features
+ &lt;a class="heading-link" href="#-key-features"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Feature&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📦 Page Object Model&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Clean and maintainable test architecture with reusable page objects&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📊 Data-Driven Testing&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Separate test data for easy management and maintenance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🌐 Multi-Browser Testing&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Support for Chromium, Firefox, Webkit and mobile browsers&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🐳 Docker Support&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Run tests in isolated containers with Docker Compose&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📈 Allure Reports&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Interactive test reports with screenshots at each step&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;⚙️ GitHub Actions CI/CD&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Automated tests, reporting and deployment to GitHub Pages&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📚 Docusaurus Documentation&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Beautiful and searchable project documentation&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🔄 Parallel Execution&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Fast test runs with fully parallel execution&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-quick-start"&gt;
+ 🚀 Quick Start
+ &lt;a class="heading-link" href="#-quick-start"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Clone and install&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://github.com/anxoportela/playwright-saucedemo.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; playwright-saucedemo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Install dependencies&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm install
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Install Playwright browsers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm run install:browsers
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Run tests&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm &lt;span class="nb"&gt;test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="-project-structure"&gt;
+ 📁 Project Structure
+ &lt;a class="heading-link" href="#-project-structure"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;playwright-saucedemo/
+├── e2e/ # End-to-end test specifications
+│ ├── login.spec.js # Authentication tests
+│ ├── inventory.spec.js # Product listing and sorting
+│ ├── cart.spec.js # Shopping cart operations
+│ ├── checkout.spec.js # Checkout flow tests
+│ └── logout.spec.js # Session management tests
+├── pages/ # Page Object Model classes
+│ ├── loginPage.js # Login page interactions
+│ ├── inventoryPage.js # Inventory page interactions
+│ ├── cartPage.js # Cart page interactions
+│ └── checkoutPage.js # Checkout page interactions
+├── fixtures/ # Custom Playwright fixtures
+│ ├── customFixtures.js # Reusable test utilities
+│ └── allureScreenshots.js # Allure screenshot attachment
+├── test-data/ # Test data files
+│ ├── credentials.js # User credentials
+│ └── products.js # Product catalog data
+├── docs/ # Docusaurus documentation
+├── .github/workflows/ # GitHub Actions CI/CD
+├── playwright.config.js # Playwright configuration
+└── docker-compose.yml # Docker services
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="-test-coverage"&gt;
+ 📋 Test Coverage
+ &lt;a class="heading-link" href="#-test-coverage"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Module&lt;/th&gt;
+ &lt;th&gt;Tests&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🔐 Login&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;4 tests&lt;/td&gt;
+ &lt;td&gt;Valid/invalid credentials, empty fields&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📦 Inventory&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;7 tests&lt;/td&gt;
+ &lt;td&gt;Product listing, sorting (A-Z, Z-A, price)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🛒 Cart&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;5 tests&lt;/td&gt;
+ &lt;td&gt;Add/remove items, badge updates&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;💳 Checkout&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;6 tests&lt;/td&gt;
+ &lt;td&gt;Complete flow, validation, error handling&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;🚪 Logout&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;3 tests&lt;/td&gt;
+ &lt;td&gt;Session termination, re-authentication&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;📊 Total&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;25 tests&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Complete E2E coverage&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-browser-matrix"&gt;
+ 🌐 Browser Matrix
+ &lt;a class="heading-link" href="#-browser-matrix"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Browser&lt;/th&gt;
+ &lt;th&gt;Type&lt;/th&gt;
+ &lt;th&gt;Status&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Chromium&lt;/td&gt;
+ &lt;td&gt;Desktop&lt;/td&gt;
+ &lt;td&gt;✅ Supported&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Firefox&lt;/td&gt;
+ &lt;td&gt;Desktop&lt;/td&gt;
+ &lt;td&gt;✅ Supported&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Webkit&lt;/td&gt;
+ &lt;td&gt;Desktop&lt;/td&gt;
+ &lt;td&gt;✅ Supported&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Pixel 5&lt;/td&gt;
+ &lt;td&gt;Mobile&lt;/td&gt;
+ &lt;td&gt;✅ Supported&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iPhone 12&lt;/td&gt;
+ &lt;td&gt;Mobile&lt;/td&gt;
+ &lt;td&gt;✅ Supported&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-report-types"&gt;
+ 📊 Report Types
+ &lt;a class="heading-link" href="#-report-types"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Report&lt;/th&gt;
+ &lt;th&gt;Command&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;npm run test:report&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Standard Playwright HTML report&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;JSON&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;npm run test:json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Machine-readable JSON results&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Allure&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;npm run test:allure&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Rich interactive report with screenshots&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Allure reports include:&lt;/p&gt;</description></item><item><title>🌐 Personal Portfolio Website</title><link>https://anxoportela.github.io/projects/personal-portfolio/</link><pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/projects/personal-portfolio/</guid><description>&lt;h1 id="-personal-portfolio-website"&gt;
+ 🌐 Personal Portfolio Website
+ &lt;a class="heading-link" href="#-personal-portfolio-website"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A modern, responsive personal portfolio website built using Hugo static site generator.&lt;/p&gt;
+&lt;h2 id="-features"&gt;
+ 🌟 Features
+ &lt;a class="heading-link" href="#-features"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Fully responsive design&lt;/li&gt;
+&lt;li&gt;🌍 Multilingual support (English, Spanish, Portuguese)&lt;/li&gt;
+&lt;li&gt;🌙 Dark/Light mode toggle&lt;/li&gt;
+&lt;li&gt;🔍 SEO optimized&lt;/li&gt;
+&lt;li&gt;⚡ Fast loading times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-technologies-used"&gt;
+ 🛠️ Technologies Used
+ &lt;a class="heading-link" href="#-technologies-used"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; - Static site generator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTML5/CSS3&lt;/strong&gt; - Structure and styles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font Awesome Icons&lt;/strong&gt; - Icons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; - Hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-links"&gt;
+ 🔗 Links
+ &lt;a class="heading-link" href="#-links"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Live Demo&lt;/strong&gt;: &lt;a href="https://anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;View Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source Code&lt;/strong&gt;: &lt;a href="https://github.com/anxoportela/anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This project showcases how to build a professional personal website using Hugo.&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

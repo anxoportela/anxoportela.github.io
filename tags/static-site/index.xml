@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Static-Site on Anxo Portela</title><link>https://anxoportela.github.io/tags/static-site/</link><description>Recent content in Static-Site on Anxo Portela</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 14 Feb 2026 22:13:17 +0100</lastBuildDate><atom:link href="https://anxoportela.github.io/tags/static-site/index.xml" rel="self" type="application/rss+xml"/><item><title>🌐 Personal Portfolio Website</title><link>https://anxoportela.github.io/projects/personal-portfolio/</link><pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/projects/personal-portfolio/</guid><description>&lt;h1 id="-personal-portfolio-website"&gt;
+ 🌐 Personal Portfolio Website
+ &lt;a class="heading-link" href="#-personal-portfolio-website"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A modern, responsive personal portfolio website built using Hugo static site generator.&lt;/p&gt;
+&lt;h2 id="-features"&gt;
+ 🌟 Features
+ &lt;a class="heading-link" href="#-features"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Fully responsive design&lt;/li&gt;
+&lt;li&gt;🌍 Multilingual support (English, Spanish, Portuguese)&lt;/li&gt;
+&lt;li&gt;🌙 Dark/Light mode toggle&lt;/li&gt;
+&lt;li&gt;🔍 SEO optimized&lt;/li&gt;
+&lt;li&gt;⚡ Fast loading times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-technologies-used"&gt;
+ 🛠️ Technologies Used
+ &lt;a class="heading-link" href="#-technologies-used"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; - Static site generator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTML5/CSS3&lt;/strong&gt; - Structure and styles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font Awesome Icons&lt;/strong&gt; - Icons&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; - Hosting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-links"&gt;
+ 🔗 Links
+ &lt;a class="heading-link" href="#-links"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Live Demo&lt;/strong&gt;: &lt;a href="https://anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;View Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source Code&lt;/strong&gt;: &lt;a href="https://github.com/anxoportela/anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;GitHub Repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;This project showcases how to build a professional personal website using Hugo.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>🌐 Site de Portfólio Pessoal</title><link>https://anxoportela.github.io/pt-br/projects/personal-portfolio/</link><pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/projects/personal-portfolio/</guid><description>&lt;h1 id="-site-de-portfólio-pessoal"&gt;
+ 🌐 Site de Portfólio Pessoal
+ &lt;a class="heading-link" href="#-site-de-portf%c3%b3lio-pessoal"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Um site de portfólio pessoal moderno e responsivo construído usando o gerador de sites estáticos Hugo.&lt;/p&gt;
+&lt;h2 id="-características"&gt;
+ 🌟 Características
+ &lt;a class="heading-link" href="#-caracter%c3%adsticas"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Design totalmente responsivo&lt;/li&gt;
+&lt;li&gt;🌍 Suporte multilíngue (Inglês, Espanhol, Português)&lt;/li&gt;
+&lt;li&gt;🌙 Alternância modo escuro/claro&lt;/li&gt;
+&lt;li&gt;🔍 Otimizado para SEO&lt;/li&gt;
+&lt;li&gt;⚡ Carregamento rápido&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-tecnologias-usadas"&gt;
+ 🛠️ Tecnologias Usadas
+ &lt;a class="heading-link" href="#-tecnologias-usadas"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; - Gerador de sites estáticos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTML5/CSS3&lt;/strong&gt; - Estrutura e estilos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font Awesome Icons&lt;/strong&gt; - Ícones&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; - Hospedagem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-links"&gt;
+ 🔗 Links
+ &lt;a class="heading-link" href="#-links"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Demo ao Vivo&lt;/strong&gt;: &lt;a href="https://anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;Ver Site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código Fonte&lt;/strong&gt;: &lt;a href="https://github.com/anxoportela/anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;Repositório GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Este projeto mostra como construir um site profissional pessoal usando Hugo.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>🌐 Sitio de Portafolio Personal</title><link>https://anxoportela.github.io/es/projects/personal-portfolio/</link><pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/projects/personal-portfolio/</guid><description>&lt;h1 id="-sitio-de-portafolio-personal"&gt;
+ 🌐 Sitio de Portafolio Personal
+ &lt;a class="heading-link" href="#-sitio-de-portafolio-personal"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Un sitio de portafolio personal moderno y responsivo construido usando el generador de sitios estáticos Hugo.&lt;/p&gt;
+&lt;h2 id="-características"&gt;
+ 🌟 Características
+ &lt;a class="heading-link" href="#-caracter%c3%adsticas"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Diseño completamente responsivo&lt;/li&gt;
+&lt;li&gt;🌍 Soporte multilenguaje (Inglés, Español, Portugués)&lt;/li&gt;
+&lt;li&gt;🌙 Alternar modo oscuro/claro&lt;/li&gt;
+&lt;li&gt;🔍 Optimizado para SEO&lt;/li&gt;
+&lt;li&gt;⚡ Carga rápida&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-tecnologías-usadas"&gt;
+ 🛠️ Tecnologías Usadas
+ &lt;a class="heading-link" href="#-tecnolog%c3%adas-usadas"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; - Generador de sitios estáticos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HTML5/CSS3&lt;/strong&gt; - Estructura y estilos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Font Awesome Icons&lt;/strong&gt; - Iconos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt; - Alojamiento&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-enlaces"&gt;
+ 🔗 Enlaces
+ &lt;a class="heading-link" href="#-enlaces"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Demo en Vivo&lt;/strong&gt;: &lt;a href="https://anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;Ver Sitio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Código Fuente&lt;/strong&gt;: &lt;a href="https://github.com/anxoportela/anxoportela.github.io" class="external-link" target="_blank" rel="noopener"&gt;Repositorio GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;Este proyecto muestra cómo construir un sitio web profesional personal usando Hugo.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>🚀 Começando com Hugo</title><link>https://anxoportela.github.io/pt-br/posts/getting-started-with-hugo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/getting-started-with-hugo/</guid><description>&lt;h1 id="-começando-com-hugo"&gt;
+ 🚀 Começando com Hugo
+ &lt;a class="heading-link" href="#-come%c3%a7ando-com-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hugo é um gerador de sites estáticos rápido e flexível. Nesta postagem, mostrarei como criar um site pessoal usando Hugo. 🏗️&lt;/p&gt;
+&lt;h2 id="por-que-hugo-"&gt;
+ Por que Hugo? 🤔
+ &lt;a class="heading-link" href="#por-que-hugo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Velocidade&lt;/strong&gt;: Hugo é incrivelmente rápido ⚡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibilidade&lt;/strong&gt;: Ampla gama de temas 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sem dependências&lt;/strong&gt;: Instalação de binário único 📦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Escreva conteúdo em Markdown ✍️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="instalação"&gt;
+ Instalação
+ &lt;a class="heading-link" href="#instala%c3%a7%c3%a3o"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# No Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;choco install hugo -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="criando-um-novo-site"&gt;
+ Criando um Novo Site
+ &lt;a class="heading-link" href="#criando-um-novo-site"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site meu-site
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; meu-site
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="conclusão"&gt;
+ Conclusão
+ &lt;a class="heading-link" href="#conclus%c3%a3o"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo é uma excelente escolha para construir sites estáticos. Fique atento para mais tutoriais! 📚&lt;/p&gt;</description></item><item><title>🚀 Comenzando con Hugo</title><link>https://anxoportela.github.io/es/posts/getting-started-with-hugo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/getting-started-with-hugo/</guid><description>&lt;h1 id="-comenzando-con-hugo"&gt;
+ 🚀 Comenzando con Hugo
+ &lt;a class="heading-link" href="#-comenzando-con-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hugo es un generador de sitios estáticos rápido y flexible. En esta publicación, te mostraré cómo crear un sitio web personal usando Hugo. 🏗️&lt;/p&gt;
+&lt;h2 id="por-qué-hugo-"&gt;
+ ¿Por qué Hugo? 🤔
+ &lt;a class="heading-link" href="#por-qu%c3%a9-hugo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Velocidad&lt;/strong&gt;: Hugo es increíblemente rápido ⚡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibilidad&lt;/strong&gt;: Amplia gama de temas 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sin dependencias&lt;/strong&gt;: Instalación de binario único 📦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Escribe contenido en Markdown ✍️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="instalación"&gt;
+ Instalación
+ &lt;a class="heading-link" href="#instalaci%c3%b3n"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;choco install hugo -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="crear-un-nuevo-sitio"&gt;
+ Crear un Nuevo Sitio
+ &lt;a class="heading-link" href="#crear-un-nuevo-sitio"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site mi-sitio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; mi-sitio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="conclusión"&gt;
+ Conclusión
+ &lt;a class="heading-link" href="#conclusi%c3%b3n"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo es una excelente opción para construir sitios web estáticos. ¡Mantente atento para más tutoriales! 📚&lt;/p&gt;</description></item><item><title>🚀 Getting Started with Hugo</title><link>https://anxoportela.github.io/posts/getting-started-with-hugo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/posts/getting-started-with-hugo/</guid><description>&lt;h1 id="-getting-started-with-hugo"&gt;
+ 🚀 Getting Started with Hugo
+ &lt;a class="heading-link" href="#-getting-started-with-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hugo is a fast and flexible static site generator. In this post, I&amp;rsquo;ll show you how to create a personal website using Hugo. 🏗️&lt;/p&gt;
+&lt;h2 id="why-hugo-"&gt;
+ Why Hugo? 🤔
+ &lt;a class="heading-link" href="#why-hugo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Hugo is incredibly fast ⚡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: Wide range of themes 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No dependencies&lt;/strong&gt;: Single binary installation 📦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Write content in Markdown ✍️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installation"&gt;
+ Installation
+ &lt;a class="heading-link" href="#installation"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# On macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# On Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# On Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;choco install hugo -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="creating-a-new-site"&gt;
+ Creating a New Site
+ &lt;a class="heading-link" href="#creating-a-new-site"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site my-website
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; my-website
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="conclusion"&gt;
+ Conclusion
+ &lt;a class="heading-link" href="#conclusion"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo is an excellent choice for building static websites. Stay tuned for more tutorials! 📚&lt;/p&gt;</description></item></channel></rss>

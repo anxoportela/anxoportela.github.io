@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Postman on Anxo Portela</title><link>https://anxoportela.github.io/tags/postman/</link><description>Recent content in Postman on Anxo Portela</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 14 Feb 2026 22:02:20 +0100</lastBuildDate><atom:link href="https://anxoportela.github.io/tags/postman/index.xml" rel="self" type="application/rss+xml"/><item><title>🔌 Dominando las Pruebas de API con Postman</title><link>https://anxoportela.github.io/es/posts/api-testing-postman/</link><pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/api-testing-postman/</guid><description>&lt;h1 id="-dominando-las-pruebas-de-api-con-postman"&gt;
+ 🔌 Dominando las Pruebas de API con Postman
+ &lt;a class="heading-link" href="#-dominando-las-pruebas-de-api-con-postman"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Las pruebas de API son el fundamento de la calidad moderna del software. En esta guía, compartiré mi enfoque para pruebas integrales de API usando Postman y automatizándolas con Newman. 🚀&lt;/p&gt;
+&lt;h2 id="-por-qué-las-pruebas-de-api-son-importantes"&gt;
+ ⚡ Por qué las Pruebas de API Son Importantes
+ &lt;a class="heading-link" href="#-por-qu%c3%a9-las-pruebas-de-api-son-importantes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Las APIs son la columna vertebral de las aplicaciones modernas. Según investigaciones:&lt;/p&gt;</description></item><item><title>🔌 Dominando Testes de API com Postman</title><link>https://anxoportela.github.io/pt-br/posts/api-testing-postman/</link><pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/api-testing-postman/</guid><description>&lt;h1 id="-dominando-testes-de-api-com-postman"&gt;
+ 🔌 Dominando Testes de API com Postman
+ &lt;a class="heading-link" href="#-dominando-testes-de-api-com-postman"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Testes de API são a fundação da qualidade moderna de software. Neste guia, compartilharei minha abordagem para testes abrangentes de API usando Postman e automatizando com Newman. 🚀&lt;/p&gt;
+&lt;h2 id="-por-que-testes-de-api-são-importantes"&gt;
+ ⚡ Por que Testes de API São Importantes
+ &lt;a class="heading-link" href="#-por-que-testes-de-api-s%c3%a3o-importantes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;APIs são a espinha dorsal das aplicações modernas. Segundo pesquisas:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 83% do tempo de testes é gasto em verificação de API&lt;/li&gt;
+&lt;li&gt;🎯 Testes antecipados de API capturam 60% dos defeitos antes da UI&lt;/li&gt;
+&lt;li&gt;⚡ Testes de API são 10x mais rápidos que testes de UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-configurando-sua-estrutura-de-testes-de-api"&gt;
+ 🛠️ Configurando Sua Estrutura de Testes de API
+ &lt;a class="heading-link" href="#-configurando-sua-estrutura-de-testes-de-api"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="1-gerenciamento-de-ambientes"&gt;
+ 1. Gerenciamento de Ambientes
+ &lt;a class="heading-link" href="#1-gerenciamento-de-ambientes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Crie ambientes para diferentes stages:&lt;/p&gt;</description></item><item><title>🔌 Mastering API Testing with Postman</title><link>https://anxoportela.github.io/posts/api-testing-postman/</link><pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/posts/api-testing-postman/</guid><description>&lt;h1 id="-mastering-api-testing-with-postman"&gt;
+ 🔌 Mastering API Testing with Postman
+ &lt;a class="heading-link" href="#-mastering-api-testing-with-postman"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;API testing is the foundation of modern software quality. In this guide, I&amp;rsquo;ll share my approach to comprehensive API testing using Postman and automating it with Newman. 🚀&lt;/p&gt;
+&lt;h2 id="why-api-testing-matters-"&gt;
+ Why API Testing Matters ⚡
+ &lt;a class="heading-link" href="#why-api-testing-matters-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;APIs are the backbone of modern applications. According to research:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;📊 83% of testing time is spent on API verification&lt;/li&gt;
+&lt;li&gt;🎯 Early API testing catches 60% of defects before UI&lt;/li&gt;
+&lt;li&gt;⚡ API tests are 10x faster than UI tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="setting-up-your-api-testing-framework-"&gt;
+ Setting Up Your API Testing Framework 🛠️
+ &lt;a class="heading-link" href="#setting-up-your-api-testing-framework-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="1-environment-management"&gt;
+ 1. Environment Management
+ &lt;a class="heading-link" href="#1-environment-management"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Create environments for different stages:&lt;/p&gt;</description></item></channel></rss>

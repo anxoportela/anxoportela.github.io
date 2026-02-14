@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test Design on Anxo Portela</title><link>https://anxoportela.github.io/categories/test-design/</link><description>Recent content in Test Design on Anxo Portela</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 14 Feb 2026 22:02:20 +0100</lastBuildDate><atom:link href="https://anxoportela.github.io/categories/test-design/index.xml" rel="self" type="application/rss+xml"/><item><title>📝 Padrões de Design de Casos de Teste</title><link>https://anxoportela.github.io/pt-br/posts/padroes-design-casos-teste/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/padroes-design-casos-teste/</guid><description>&lt;h1 id="-padrões-de-design-de-casos-de-teste"&gt;
+ 📝 Padrões de Design de Casos de Teste
+ &lt;a class="heading-link" href="#-padr%c3%b5es-de-design-de-casos-de-teste"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Casos de teste bem projetados são a base de testes eficazes. Este guia abrangente cobre padrões comprovados para criar casos de teste mantenciveis, abrangentes e legíveis. 💪&lt;/p&gt;
+&lt;h2 id="por-que-padrões-importam-"&gt;
+ Por Que Padrões Importam 💡
+ &lt;a class="heading-link" href="#por-que-padr%c3%b5es-importam-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Bons padrões de design de testes ajudam você a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Escrever testes mais eficazes&lt;/strong&gt; - Intenção clara leva a melhor cobertura&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Reduzir manutenção de testes&lt;/strong&gt; - Testes bem estruturados são mais fáceis de atualizar&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Melhorar cobertura de testes&lt;/strong&gt; - Padrões ajudam a identificar casos extremos&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Fazer testes mais fáceis de entender&lt;/strong&gt; - Equipes podem compreender rapidamente a lógica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="o-padrão-arrange-act-assert-aaa-"&gt;
+ O Padrão Arrange-Act-Assert (AAA) 🎯
+ &lt;a class="heading-link" href="#o-padr%c3%a3o-arrange-act-assert-aaa-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;O padrão mais utilizado para estruturar testes unitários.&lt;/p&gt;</description></item><item><title>📝 Patrones de Diseño de Casos de Prueba</title><link>https://anxoportela.github.io/es/posts/patrones-diseno-casos-prueba/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/patrones-diseno-casos-prueba/</guid><description>&lt;h1 id="-patrones-de-diseño-de-casos-de-prueba"&gt;
+ 📝 Patrones de Diseño de Casos de Prueba
+ &lt;a class="heading-link" href="#-patrones-de-dise%c3%b1o-de-casos-de-prueba"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Los casos de prueba bien diseñados son la base de pruebas efectivas. Esta guía exhaustiva cubre patrones probados para crear casos de prueba mantenibles, comprehensivos y legibles. 💪&lt;/p&gt;
+&lt;h2 id="por-qué-importan-los-patrones-"&gt;
+ Por Qué Importan los Patrones 💡
+ &lt;a class="heading-link" href="#por-qu%c3%a9-importan-los-patrones-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Los buenos patrones de diseño de pruebas te ayudan a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Escribir pruebas más efectivas&lt;/strong&gt; - La intención clara lleva a mejor cobertura&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Reducir el mantenimiento de pruebas&lt;/strong&gt; - Las pruebas bien estructuradas son más fáciles de actualizar&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Mejorar la cobertura de pruebas&lt;/strong&gt; - Los patrones ayudan a identificar casos extremos&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Hacer las pruebas más fáciles de entender&lt;/strong&gt; - Los equipos pueden comprender rápidamente la lógica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="el-patrón-arrange-act-assert-aaa-"&gt;
+ El Patrón Arrange-Act-Assert (AAA) 🎯
+ &lt;a class="heading-link" href="#el-patr%c3%b3n-arrange-act-assert-aaa-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;El patrón más utilizado para estructurar pruebas unitarias.&lt;/p&gt;</description></item><item><title>📝 Test Case Design Patterns</title><link>https://anxoportela.github.io/posts/test-case-design-patterns/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/posts/test-case-design-patterns/</guid><description>&lt;h1 id="-test-case-design-patterns"&gt;
+ 📝 Test Case Design Patterns
+ &lt;a class="heading-link" href="#-test-case-design-patterns"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Well-designed test cases are the foundation of effective testing. This comprehensive guide covers proven patterns for creating maintainable, comprehensive, and readable test cases. 💪&lt;/p&gt;
+&lt;h2 id="why-design-patterns-matter"&gt;
+ Why Design Patterns Matter
+ &lt;a class="heading-link" href="#why-design-patterns-matter"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Good test design patterns help you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Write more effective tests&lt;/strong&gt; - Clear intent leads to better coverage&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Reduce test maintenance&lt;/strong&gt; - Well-structured tests are easier to update&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Improve test coverage&lt;/strong&gt; - Patterns help identify edge cases&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Make tests easier to understand&lt;/strong&gt; - Teams can quickly comprehend test logic&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-arrange-act-assert-aaa-pattern"&gt;
+ The Arrange-Act-Assert (AAA) Pattern
+ &lt;a class="heading-link" href="#the-arrange-act-assert-aaa-pattern"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The most widely used pattern for structuring unit tests.&lt;/p&gt;</description></item></channel></rss>

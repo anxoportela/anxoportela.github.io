@@ -1,0 +1,102 @@
+<!doctype html><html lang=en><head><title>🔌 Dominando Testes de API com Postman · Anxo Portela</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=color-scheme content="light dark"><meta name=author content="Anxo Portela"><meta name=description content="Um guia completo para estratégias eficazes de testes de API usando Postman e Newman"><meta name=keywords content="blog,developer,personal,devops"><meta name=twitter:card content="summary"><meta name=twitter:title content="🔌 Dominando Testes de API com Postman"><meta name=twitter:description content="Um guia completo para estratégias eficazes de testes de API usando Postman e Newman"><meta property="og:url" content="https://anxoportela.github.io/pt-br/posts/api-testing-postman/"><meta property="og:site_name" content="Anxo Portela"><meta property="og:title" content="🔌 Dominando Testes de API com Postman"><meta property="og:description" content="Um guia completo para estratégias eficazes de testes de API usando Postman e Newman"><meta property="og:locale" content="en"><meta property="og:type" content="article"><meta property="article:section" content="pt-br"><meta property="article:published_time" content="2025-12-08T00:00:00+00:00"><meta property="article:modified_time" content="2026-02-14T22:02:20+01:00"><meta property="article:tag" content="Api"><meta property="article:tag" content="Testing"><meta property="article:tag" content="Postman"><meta property="article:tag" content="Automation"><meta property="article:tag" content="Rest"><link rel=canonical href=https://anxoportela.github.io/pt-br/posts/api-testing-postman/><link rel=preload href=/fonts/fa-brands-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-regular-400.woff2 as=font type=font/woff2 crossorigin><link rel=preload href=/fonts/fa-solid-900.woff2 as=font type=font/woff2 crossorigin><link rel=stylesheet href=/css/coder.min.4b392a85107b91dbdabc528edf014a6ab1a30cd44cafcd5325c8efe796794fca.css integrity="sha256-SzkqhRB7kdvavFKO3wFKarGjDNRMr81TJcjv55Z5T8o=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin=anonymous media=screen><link rel=stylesheet href=/css/custom.min.e058db845114788b6a51287b6b967a94acbc4b60afd6ba68425a8d821797d4cd.css integrity="sha256-4FjbhFEUeItqUSh7a5Z6lKy8S2Cv1rpoQlqNgheX1M0=" crossorigin=anonymous media=screen><link rel=icon type=image/svg+xml href=/images/favicon.svg sizes=any><link rel=icon type=image/png href=/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=/images/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=/images/apple-touch-icon.png><link rel=manifest href=/site.webmanifest><link rel=mask-icon href=/images/safari-pinned-tab.svg color=#5bbad5></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa-solid fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/pt-br/>Anxo Portela
+</a><input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle><i class="fa-solid fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=/pt-br/about/>Sobre</a></li><li class=navigation-item><a class=navigation-link href=/pt-br/posts/>Blog</a></li><li class=navigation-item><a class=navigation-link href=/pt-br/projects/>Projetos</a></li><li class=navigation-item><a class=navigation-link href=/pt-br/gigs/>Serviços</a></li><li class=navigation-item><a class=navigation-link href=/pt-br/contact/>Contato</a></li><li class=navigation-item><a class=navigation-link href=/pt-br/search/><i class="fa-solid fa-search"></i></a></li><li class="navigation-item menu-separator"><span>|</span></li><li class=navigation-item><a href=/>🇬🇧</a></li><li class=navigation-item><a href=/es/>🇪🇸</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://anxoportela.github.io/pt-br/posts/api-testing-postman/>🔌 Dominando Testes de API com Postman</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa-solid fa-calendar" aria-hidden=true></i>
+<time datetime=2025-12-08T00:00:00Z>December 8, 2025
+</time></span><span class=reading-time><i class="fa-solid fa-clock" aria-hidden=true></i>
+2-minute read</span></div><div class=categories><i class="fa-solid fa-folder" aria-hidden=true></i>
+<a href=/categories/api-testing/>API Testing</a></div><div class=tags><i class="fa-solid fa-tag" aria-hidden=true></i>
+<span class=tag><a href=/tags/api/>Api</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/testing/>Testing</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/postman/>Postman</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/automation/>Automation</a>
+</span><span class=separator>•</span>
+<span class=tag><a href=/tags/rest/>Rest</a></span></div></div></header><div class=post-content><h1 id=-dominando-testes-de-api-com-postman>🔌 Dominando Testes de API com Postman
+<a class=heading-link href=#-dominando-testes-de-api-com-postman><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h1><p>Testes de API são a fundação da qualidade moderna de software. Neste guia, compartilharei minha abordagem para testes abrangentes de API usando Postman e automatizando com Newman. 🚀</p><h2 id=-por-que-testes-de-api-são-importantes>⚡ Por que Testes de API São Importantes
+<a class=heading-link href=#-por-que-testes-de-api-s%c3%a3o-importantes><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>APIs são a espinha dorsal das aplicações modernas. Segundo pesquisas:</p><ul><li>📊 83% do tempo de testes é gasto em verificação de API</li><li>🎯 Testes antecipados de API capturam 60% dos defeitos antes da UI</li><li>⚡ Testes de API são 10x mais rápidos que testes de UI</li></ul><h2 id=-configurando-sua-estrutura-de-testes-de-api>🛠️ Configurando Sua Estrutura de Testes de API
+<a class=heading-link href=#-configurando-sua-estrutura-de-testes-de-api><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><h3 id=1-gerenciamento-de-ambientes>1. Gerenciamento de Ambientes
+<a class=heading-link href=#1-gerenciamento-de-ambientes><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><p>Crie ambientes para diferentes stages:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=c1>// Ambiente de Desenvolvimento
+</span></span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;url&#34;</span><span class=o>:</span> <span class=s2>&#34;https://dev-api.example.com&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;api_key&#34;</span><span class=o>:</span> <span class=s2>&#34;dev_key_123&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;timeout&#34;</span><span class=o>:</span> <span class=mi>5000</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>// Ambiente de Produção
+</span></span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;url&#34;</span><span class=o>:</span> <span class=s2>&#34;https://api.example.com&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;api_key&#34;</span><span class=o>:</span> <span class=s2>&#34;{{prod_key}}&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=s2>&#34;timeout&#34;</span><span class=o>:</span> <span class=mi>15000</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></div><h3 id=2-organização-de-coleções>2. Organização de Coleções
+<a class=heading-link href=#2-organiza%c3%a7%c3%a3o-de-cole%c3%a7%c3%b5es><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><p>Estruture suas coleções logicamente:</p><pre tabindex=0><code>├── Autenticação
+│   ├── Login
+│   ├── Logout
+│   └── Refresh Token
+├── Usuários
+│   ├── Obter Usuários
+│   ├── Criar Usuário
+│   └── Excluir Usuário
+</code></pre><h2 id=-escrevendo-testes-de-api-eficazes>📝 Escrevendo Testes de API Eficazes
+<a class=heading-link href=#-escrevendo-testes-de-api-eficazes><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><h3 id=testes-básicos-de-código-de-status>Testes Básicos de Código de Status
+<a class=heading-link href=#testes-b%c3%a1sicos-de-c%c3%b3digo-de-status><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=nx>pm</span><span class=p>.</span><span class=nx>test</span><span class=p>(</span><span class=s2>&#34;Resposta bem-sucedida&#34;</span><span class=p>,</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>pm</span><span class=p>.</span><span class=nx>response</span><span class=p>.</span><span class=nx>to</span><span class=p>.</span><span class=nx>have</span><span class=p>.</span><span class=nx>status</span><span class=p>(</span><span class=mi>200</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>});</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nx>pm</span><span class=p>.</span><span class=nx>test</span><span class=p>(</span><span class=s2>&#34;Recurso criado&#34;</span><span class=p>,</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nx>pm</span><span class=p>.</span><span class=nx>response</span><span class=p>.</span><span class=nx>to</span><span class=p>.</span><span class=nx>have</span><span class=p>.</span><span class=nx>status</span><span class=p>(</span><span class=mi>201</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>});</span>
+</span></span></code></pre></div><h3 id=validação-do-corpo-da-resposta>Validação do Corpo da Resposta
+<a class=heading-link href=#valida%c3%a7%c3%a3o-do-corpo-da-resposta><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-javascript data-lang=javascript><span class=line><span class=cl><span class=nx>pm</span><span class=p>.</span><span class=nx>test</span><span class=p>(</span><span class=s2>&#34;Resposta de usuário válida&#34;</span><span class=p>,</span> <span class=kd>function</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=kr>const</span> <span class=nx>jsonData</span> <span class=o>=</span> <span class=nx>pm</span><span class=p>.</span><span class=nx>response</span><span class=p>.</span><span class=nx>json</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>    <span class=nx>pm</span><span class=p>.</span><span class=nx>expect</span><span class=p>(</span><span class=nx>jsonData</span><span class=p>.</span><span class=nx>id</span><span class=p>).</span><span class=nx>to</span><span class=p>.</span><span class=nx>be</span><span class=p>.</span><span class=nx>a</span><span class=p>(</span><span class=s1>&#39;string&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>    <span class=nx>pm</span><span class=p>.</span><span class=nx>expect</span><span class=p>(</span><span class=nx>jsonData</span><span class=p>.</span><span class=nx>email</span><span class=p>).</span><span class=nx>to</span><span class=p>.</span><span class=nx>include</span><span class=p>(</span><span class=s1>&#39;@&#39;</span><span class=p>);</span>
+</span></span><span class=line><span class=cl><span class=p>});</span>
+</span></span></code></pre></div><h2 id=-automação-com-newman>🤖 Automação com Newman
+<a class=heading-link href=#-automa%c3%a7%c3%a3o-com-newman><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><h3 id=executando-coleções-via-cli>Executando Coleções via CLI
+<a class=heading-link href=#executando-cole%c3%a7%c3%b5es-via-cli><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># Executar coleção com ambiente</span>
+</span></span><span class=line><span class=cl>newman run collection.json <span class=se>\
+</span></span></span><span class=line><span class=cl>  --environment environment.json <span class=se>\
+</span></span></span><span class=line><span class=cl>  --reporters cli,json
+</span></span></code></pre></div><h3 id=integração-cicd>Integração CI/CD
+<a class=heading-link href=#integra%c3%a7%c3%a3o-cicd><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=c># GitHub Actions - Testes API</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Testes API</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>on</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>push</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>branches</span><span class=p>:</span><span class=w> </span><span class=p>[</span><span class=l>main, develop]</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=nt>jobs</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>api-tests</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-latest</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>steps</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@v4</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Instalar Newman</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>npm install -g newman</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Executar Testes API</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>newman run api-tests.postman_collection.json</span><span class=w>
+</span></span></span></code></pre></div><h2 id=-melhores-práticas>✅ Melhores Práticas
+<a class=heading-link href=#-melhores-pr%c3%a1ticas><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><ol><li><strong>📚 Controle de Versão</strong>: Armazene coleções no Git</li><li><strong>🔄 Paridade de Ambientes</strong>: Reflita produção em staging</li><li><strong>📊 Dados de Teste</strong>: Use CSV/JSON para dados de teste</li><li><strong>🔗 Encadeamento de Solicitações</strong>: Teste fluxos de usuário realistas</li></ol><h2 id=-conclusão>🎉 Conclusão
+<a class=heading-link href=#-conclus%c3%a3o><i class="fa-solid fa-link" aria-hidden=true title="Link to heading"></i>
+<span class=sr-only>Link to heading</span></a></h2><p>Postman e Newman fornecem uma combinação poderosa para testes e automação de API. Implementando essas práticas, você pode garantir que suas APIs sejam confiáveis, performantes e seguras.</p><hr><p><em>Quer melhorar sua estratégia de testes de API? <a href=/pt-br/contact/>Vamos conversar</a> sobre como posso ajudar sua equipe.</em> 🤝</p></div><footer></footer></article></section></div><footer class=footer><section class=container>©
+2025 -
+2026
+Anxo Portela
+·
+Powered by <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> & <a href=https://github.com/luizdepra/hugo-coder/ target=_blank rel=noopener>Coder</a>.[<a href=#ZgotmplZdfeebd20d9d71e049cd0121eadff0b28d9d7d824 target=_blank rel=noopener>dfeebd2</a>]</section></footer></main><script src=/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script><script src=/js/custom.min.b274de9f1795395b5db340ddee0b00131f6ac3c34bd1e845ff392b67d1c14557.js integrity="sha256-snTenxeVOVtds0Dd7gsAEx9qw8NL0ehF/zkrZ9HBRVc="></script><script async defer data-website-id=04224880-8122-43e6-a3dc-b4fdbe1f6f5b src=https://analytics.umami.is/script.js></script></body></html>

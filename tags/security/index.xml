@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Anxo Portela</title><link>https://anxoportela.github.io/tags/security/</link><description>Recent content in Security on Anxo Portela</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 14 Feb 2026 22:02:20 +0100</lastBuildDate><atom:link href="https://anxoportela.github.io/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>🛡️ Fundamentos de Pruebas de Seguridad</title><link>https://anxoportela.github.io/es/posts/fundamentos-pruebas-seguridad/</link><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/fundamentos-pruebas-seguridad/</guid><description>&lt;h1 id="-fundamentos-de-pruebas-de-seguridad"&gt;
+ 🛡️ Fundamentos de Pruebas de Seguridad
+ &lt;a class="heading-link" href="#-fundamentos-de-pruebas-de-seguridad"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;En una era donde las filtraciones de datos son noticia diaria, las pruebas de seguridad ya no son opcionales—son una parte crítica del desarrollo de software. Esta guía cubre los fundamentos de las pruebas de seguridad para aplicaciones modernas. 🚨&lt;/p&gt;
+&lt;h2 id="por-qué-importan-las-pruebas-de-seguridad-"&gt;
+ Por Qué Importan las Pruebas de Seguridad 💡
+ &lt;a class="heading-link" href="#por-qu%c3%a9-importan-las-pruebas-de-seguridad-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Las estadísticas son alarmantes:&lt;/p&gt;</description></item><item><title>🛡️ Fundamentos de Testes de Segurança</title><link>https://anxoportela.github.io/pt-br/posts/fundamentos-testes-seguranca/</link><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/pt-br/posts/fundamentos-testes-seguranca/</guid><description>&lt;h1 id="-fundamentos-de-testes-de-segurança"&gt;
+ 🛡️ Fundamentos de Testes de Segurança
+ &lt;a class="heading-link" href="#-fundamentos-de-testes-de-seguran%c3%a7a"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Em uma era onde vazamentos de dados são notícia diária, testes de segurança não são mais opcionais—são uma parte crítica do desenvolvimento de software. Este guia cobre os fundamentos dos testes de segurança para aplicações modernas. 🚨&lt;/p&gt;
+&lt;h2 id="por-que-testes-de-segurança-importam-"&gt;
+ Por Que Testes de Segurança Importam 💡
+ &lt;a class="heading-link" href="#por-que-testes-de-seguran%c3%a7a-importam-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;As estatísticas são alarmantes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;💰 Custo médio de um vazamento de dados: $4.45 milhões&lt;/li&gt;
+&lt;li&gt;⚠️ 95% das violações de cibersegurança são causadas por erro humano&lt;/li&gt;
+&lt;li&gt;📊 Mais de 22 bilhões de registros foram expostos apenas em 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Testes de segurança ajudam a:&lt;/p&gt;</description></item><item><title>🛡️ Security Testing Fundamentals</title><link>https://anxoportela.github.io/posts/security-testing-fundamentals/</link><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/posts/security-testing-fundamentals/</guid><description>&lt;h1 id="-security-testing-fundamentals"&gt;
+ 🛡️ Security Testing Fundamentals
+ &lt;a class="heading-link" href="#-security-testing-fundamentals"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;In an era where data breaches make headlines daily, security testing is no longer optional—it&amp;rsquo;s a critical part of software development. This guide covers the essentials of security testing for modern applications.&lt;/p&gt;
+&lt;h2 id="why-security-testing-matters"&gt;
+ Why Security Testing Matters
+ &lt;a class="heading-link" href="#why-security-testing-matters"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;The statistics are alarming:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Average cost of a data breach: $4.45 million&lt;/li&gt;
+&lt;li&gt;95% of cybersecurity breaches are caused by human error&lt;/li&gt;
+&lt;li&gt;Over 22 billion records were exposed in 2023 alone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Security testing helps you:&lt;/p&gt;</description></item></channel></rss>

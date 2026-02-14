@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Servicios on Anxo Portela</title><link>https://anxoportela.github.io/es/gigs/</link><description>Recent content in Servicios on Anxo Portela</description><generator>Hugo</generator><language>en</language><atom:link href="https://anxoportela.github.io/es/gigs/index.xml" rel="self" type="application/rss+xml"/><item><title>🛠️ Consultoría en Automatización de QA</title><link>https://anxoportela.github.io/es/gigs/qa-automation-consulting/</link><pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/gigs/qa-automation-consulting/</guid><description>&lt;h1 id="-consultoría-en-automatización-de-qa"&gt;
+ 🛠️ Consultoría en Automatización de QA
+ &lt;a class="heading-link" href="#-consultor%c3%ada-en-automatizaci%c3%b3n-de-qa"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Ayudo a las organizaciones a diseñar e implementar frameworks robustos de automatización de pruebas para mejorar la calidad del software y acelerar los ciclos de entrega.&lt;/p&gt;
+&lt;h2 id="-qué-incluyo"&gt;
+ 🎯 Qué Incluyo
+ &lt;a class="heading-link" href="#-qu%c3%a9-incluyo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📐 Diseño de Frameworks de Automatización&lt;/strong&gt;: Frameworks personalizados usando Cypress, Playwright, Selenium, RestAssured, Karate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🔌 Testing de APIs&lt;/strong&gt;: Testing de REST, SOAP, GraphQL con Postman/Newman&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;⚙️ Integración CI/CD&lt;/strong&gt;: Quality gates en GitHub Actions, Jenkins, GitLab CI&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;✅ Implementación de Mejores Prácticas&lt;/strong&gt;: Estrategias de testing, estándares de código, suites de pruebas mantenibles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-tiempo-de-entrega"&gt;
+ 📅 Tiempo de Entrega
+ &lt;a class="heading-link" href="#-tiempo-de-entrega"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Servicio&lt;/th&gt;
+ &lt;th&gt;Duración&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Configuración de framework&lt;/td&gt;
+ &lt;td&gt;7-14 días&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Migración de pruebas&lt;/td&gt;
+ &lt;td&gt;Depende del alcance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Capacitación y entrega&lt;/td&gt;
+ &lt;td&gt;3-5 días&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="-beneficios"&gt;
+ 🌟 Beneficios
+ &lt;a class="heading-link" href="#-beneficios"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ Reducción del esfuerzo de testing manual hasta un 70%&lt;/li&gt;
+&lt;li&gt;✅ Ciclos de feedback más rápidos en pipelines CI/CD&lt;/li&gt;
+&lt;li&gt;✅ Mejor cobertura y fiabilidad de pruebas&lt;/li&gt;
+&lt;li&gt;✅ Capacitación del equipo en herramientas modernas de testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-comunicación"&gt;
+ 💬 Comunicación
+ &lt;a class="heading-link" href="#-comunicaci%c3%b3n"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ Respuesta rápida dentro de 24 horas&lt;/li&gt;
+&lt;li&gt;📊 Actualizaciones regulares del progreso&lt;/li&gt;
+&lt;li&gt;💻 Soporte por mensaje directo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;¿Listo para mejorar tu proceso de calidad?&lt;/strong&gt; &lt;a href="https://anxoportela.github.io/es/contact/" &gt;Contáctame&lt;/a&gt; o visita mi &lt;a href="https://www.fiverr.com/" class="external-link" target="_blank" rel="noopener"&gt;perfil de Fiverr&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Anxo Portela</title><link>https://anxoportela.github.io/es/posts/</link><description>Recent content in Blog on Anxo Portela</description><generator>Hugo</generator><language>en</language><atom:link href="https://anxoportela.github.io/es/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>🚀 Guía de Pruebas de Rendimiento: De Cero a Héroe</title><link>https://anxoportela.github.io/es/posts/guia-pruebas-rendimiento/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/guia-pruebas-rendimiento/</guid><description>&lt;h1 id="-guía-de-pruebas-de-rendimiento-de-cero-a-héroe"&gt;
+ 🚀 Guía de Pruebas de Rendimiento: De Cero a Héroe
+ &lt;a class="heading-link" href="#-gu%c3%ada-de-pruebas-de-rendimiento-de-cero-a-h%c3%a9roe"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Las pruebas de rendimiento son críticas para entregar aplicaciones rápidas y confiables que proporcionan excelentes experiencias de usuario. En esta guía completa, exploraremos todo lo que necesitas saber sobre pruebas de rendimiento, desde conceptos básicos hasta técnicas avanzadas. ¡Vamos a sumergirnos! 🏊‍♂️&lt;/p&gt;
+&lt;h2 id="por-qué-importan-las-pruebas-de-rendimiento-"&gt;
+ Por Qué Importan las Pruebas de Rendimiento 💡
+ &lt;a class="heading-link" href="#por-qu%c3%a9-importan-las-pruebas-de-rendimiento-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;En el mundo digital actual, los usuarios esperan aplicaciones ultrarrápidas. Un retraso de solo un segundo puede resultar en caídas significativas en el engagement y conversiones. Las pruebas de rendimiento ayudan a:&lt;/p&gt;</description></item><item><title>📝 Patrones de Diseño de Casos de Prueba</title><link>https://anxoportela.github.io/es/posts/patrones-diseno-casos-prueba/</link><pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/patrones-diseno-casos-prueba/</guid><description>&lt;h1 id="-patrones-de-diseño-de-casos-de-prueba"&gt;
+ 📝 Patrones de Diseño de Casos de Prueba
+ &lt;a class="heading-link" href="#-patrones-de-dise%c3%b1o-de-casos-de-prueba"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Los casos de prueba bien diseñados son la base de pruebas efectivas. Esta guía exhaustiva cubre patrones probados para crear casos de prueba mantenibles, comprehensivos y legibles. 💪&lt;/p&gt;
+&lt;h2 id="por-qué-importan-los-patrones-"&gt;
+ Por Qué Importan los Patrones 💡
+ &lt;a class="heading-link" href="#por-qu%c3%a9-importan-los-patrones-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Los buenos patrones de diseño de pruebas te ayudan a:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✨ &lt;strong&gt;Escribir pruebas más efectivas&lt;/strong&gt; - La intención clara lleva a mejor cobertura&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Reducir el mantenimiento de pruebas&lt;/strong&gt; - Las pruebas bien estructuradas son más fáciles de actualizar&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Mejorar la cobertura de pruebas&lt;/strong&gt; - Los patrones ayudan a identificar casos extremos&lt;/li&gt;
+&lt;li&gt;👀 &lt;strong&gt;Hacer las pruebas más fáciles de entender&lt;/strong&gt; - Los equipos pueden comprender rápidamente la lógica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="el-patrón-arrange-act-assert-aaa-"&gt;
+ El Patrón Arrange-Act-Assert (AAA) 🎯
+ &lt;a class="heading-link" href="#el-patr%c3%b3n-arrange-act-assert-aaa-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;El patrón más utilizado para estructurar pruebas unitarias.&lt;/p&gt;</description></item><item><title>🛡️ Fundamentos de Pruebas de Seguridad</title><link>https://anxoportela.github.io/es/posts/fundamentos-pruebas-seguridad/</link><pubDate>Mon, 19 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/fundamentos-pruebas-seguridad/</guid><description>&lt;h1 id="-fundamentos-de-pruebas-de-seguridad"&gt;
+ 🛡️ Fundamentos de Pruebas de Seguridad
+ &lt;a class="heading-link" href="#-fundamentos-de-pruebas-de-seguridad"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;En una era donde las filtraciones de datos son noticia diaria, las pruebas de seguridad ya no son opcionales—son una parte crítica del desarrollo de software. Esta guía cubre los fundamentos de las pruebas de seguridad para aplicaciones modernas. 🚨&lt;/p&gt;
+&lt;h2 id="por-qué-importan-las-pruebas-de-seguridad-"&gt;
+ Por Qué Importan las Pruebas de Seguridad 💡
+ &lt;a class="heading-link" href="#por-qu%c3%a9-importan-las-pruebas-de-seguridad-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Las estadísticas son alarmantes:&lt;/p&gt;</description></item><item><title>🔮 Tendencias de Testing 2026: Qué Observar</title><link>https://anxoportela.github.io/es/posts/tendencias-testing-2026/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/tendencias-testing-2026/</guid><description>&lt;h1 id="-tendencias-de-testing-2026-qué-observar"&gt;
+ 🔮 Tendencias de Testing 2026: Qué Observar
+ &lt;a class="heading-link" href="#-tendencias-de-testing-2026-qu%c3%a9-observar"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;El panorama de testing está evolucionando a un ritmo sin precedentes. A medida que avanzamos en 2026, varias tendencias clave están remodelando cómo abordamos el assurance de calidad. Profundicemos en lo que está moldando el futuro del testing. 🚀&lt;/p&gt;
+&lt;h2 id="testing-impulsado-por-ia-lo-normal-"&gt;
+ Testing Impulsado por IA: Lo Normal 🤖
+ &lt;a class="heading-link" href="#testing-impulsado-por-ia-lo-normal-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;La Inteligencia Artificial ha transición de ser una palabra de moda a ser una parte fundamental de los flujos de trabajo de testing.&lt;/p&gt;</description></item><item><title>🤖 IA en Automatización de QA: El Futuro de las Pruebas</title><link>https://anxoportela.github.io/es/posts/ia-automatizacion-qa/</link><pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/ia-automatizacion-qa/</guid><description>&lt;h1 id="-ia-en-automatización-de-qa-el-futuro-de-las-pruebas"&gt;
+ 🤖 IA en Automatización de QA: El Futuro de las Pruebas
+ &lt;a class="heading-link" href="#-ia-en-automatizaci%c3%b3n-de-qa-el-futuro-de-las-pruebas"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;La Inteligencia Artificial está transformando todos los aspectos del desarrollo de software, y la automatización de QA no es una excepción. En esta guía completa, exploraré cómo la IA está remodelando el panorama de pruebas y lo que significa para los profesionales de QA en 2026 y más allá. 🚀&lt;/p&gt;
+&lt;h2 id="el-estado-actual-de-la-ia-en-pruebas-"&gt;
+ El Estado Actual de la IA en Pruebas 🤖
+ &lt;a class="heading-link" href="#el-estado-actual-de-la-ia-en-pruebas-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Las herramientas de pruebas impulsadas por IA han evolucionado significativamente en los últimos años. Desde la generación inteligente de pruebas hasta el análisis predictivo de defectos, la IA está ayudando a los equipos a entregar mejor software más rápido. La transformación ha sido notable, pasando de simples scripts de automatización a sistemas inteligentes que pueden aprender y adaptarse.&lt;/p&gt;</description></item><item><title>🎭 Mejores Prácticas de Playwright para Pruebas Empresariales en 2026</title><link>https://anxoportela.github.io/es/posts/playwright-best-practices-2026/</link><pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/playwright-best-practices-2026/</guid><description>&lt;h1 id="-mejores-prácticas-de-playwright-para-pruebas-empresariales-en-2026"&gt;
+ 🎭 Mejores Prácticas de Playwright para Pruebas Empresariales en 2026
+ &lt;a class="heading-link" href="#-mejores-pr%c3%a1cticas-de-playwright-para-pruebas-empresariales-en-2026"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;A medida que las organizaciones adoptan marcos de pruebas modernos, Playwright ha emergido como una opción líder para pruebas end-to-end. Aquí está mi guía completa para implementar Playwright a escala. 🚀&lt;/p&gt;
+&lt;h2 id="-por-qué-playwright"&gt;
+ ❓ ¿Por qué Playwright?
+ &lt;a class="heading-link" href="#-por-qu%c3%a9-playwright"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Playwright ofrece varias ventajas que lo hacen ideal para pruebas empresariales:&lt;/p&gt;</description></item><item><title>👔 Construyendo un Equipo de QA de Clase Mundial: Lecciones de Liderazgo</title><link>https://anxoportela.github.io/es/posts/qa-leadership-strategy/</link><pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/qa-leadership-strategy/</guid><description>&lt;h1 id="-construyendo-un-equipo-de-qa-de-clase-mundial-lecciones-de-liderazgo"&gt;
+ 👔 Construyendo un Equipo de QA de Clase Mundial: Lecciones de Liderazgo
+ &lt;a class="heading-link" href="#-construyendo-un-equipo-de-qa-de-clase-mundial-lecciones-de-liderazgo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Después de más de 14 años en la industria de calidad de software, he aprendido que los grandes equipos de QA no se construyen de la noche a la mañana—se cultivan a través de un liderazgo intencional, una visión clara y una inversión continua en las personas. 🌟&lt;/p&gt;
+&lt;h2 id="-el-manifiesto-del-líder-de-qa"&gt;
+ 📜 El Manifiesto del Líder de QA
+ &lt;a class="heading-link" href="#-el-manifiesto-del-l%c3%adder-de-qa"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Como líderes de QA, nuestro rol ha evolucionado más allá de las pruebas. Ahora somos socios estratégicos en la entrega de valor a los clientes. Esto es lo que he aprendido:&lt;/p&gt;</description></item><item><title>⚙️ Implementando Quality Gates en Pipelines CI/CD</title><link>https://anxoportela.github.io/es/posts/ci-cd-quality-gates/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/ci-cd-quality-gates/</guid><description>&lt;h1 id="-implementando-quality-gates-en-pipelines-cicd"&gt;
+ ⚙️ Implementando Quality Gates en Pipelines CI/CD
+ &lt;a class="heading-link" href="#-implementando-quality-gates-en-pipelines-cicd"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Los quality gates son puntos de control automatizados en tu pipeline CI/CD que aseguran que el código cumpla los estándares de calidad antes de avanzar a la siguiente etapa. Aquí te mostraremos cómo implementar quality gates efectivos. 🚀&lt;/p&gt;
+&lt;h2 id="-qué-son-los-quality-gates"&gt;
+ ❓ ¿Qué son los Quality Gates?
+ &lt;a class="heading-link" href="#-qu%c3%a9-son-los-quality-gates"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Los quality gates actúan como filtros que:&lt;/p&gt;</description></item><item><title>🔌 Dominando las Pruebas de API con Postman</title><link>https://anxoportela.github.io/es/posts/api-testing-postman/</link><pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/api-testing-postman/</guid><description>&lt;h1 id="-dominando-las-pruebas-de-api-con-postman"&gt;
+ 🔌 Dominando las Pruebas de API con Postman
+ &lt;a class="heading-link" href="#-dominando-las-pruebas-de-api-con-postman"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Las pruebas de API son el fundamento de la calidad moderna del software. En esta guía, compartiré mi enfoque para pruebas integrales de API usando Postman y automatizándolas con Newman. 🚀&lt;/p&gt;
+&lt;h2 id="-por-qué-las-pruebas-de-api-son-importantes"&gt;
+ ⚡ Por qué las Pruebas de API Son Importantes
+ &lt;a class="heading-link" href="#-por-qu%c3%a9-las-pruebas-de-api-son-importantes"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Las APIs son la columna vertebral de las aplicaciones modernas. Según investigaciones:&lt;/p&gt;</description></item><item><title>🚀 Comenzando con Hugo</title><link>https://anxoportela.github.io/es/posts/getting-started-with-hugo/</link><pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate><guid>https://anxoportela.github.io/es/posts/getting-started-with-hugo/</guid><description>&lt;h1 id="-comenzando-con-hugo"&gt;
+ 🚀 Comenzando con Hugo
+ &lt;a class="heading-link" href="#-comenzando-con-hugo"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h1&gt;
+&lt;p&gt;Hugo es un generador de sitios estáticos rápido y flexible. En esta publicación, te mostraré cómo crear un sitio web personal usando Hugo. 🏗️&lt;/p&gt;
+&lt;h2 id="por-qué-hugo-"&gt;
+ ¿Por qué Hugo? 🤔
+ &lt;a class="heading-link" href="#por-qu%c3%a9-hugo-"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Velocidad&lt;/strong&gt;: Hugo es increíblemente rápido ⚡&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibilidad&lt;/strong&gt;: Amplia gama de temas 🎨&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sin dependencias&lt;/strong&gt;: Instalación de binario único 📦&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt;: Escribe contenido en Markdown ✍️&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="instalación"&gt;
+ Instalación
+ &lt;a class="heading-link" href="#instalaci%c3%b3n"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En macOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En Linux&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt-get install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# En Windows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;choco install hugo -confirm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="crear-un-nuevo-sitio"&gt;
+ Crear un Nuevo Sitio
+ &lt;a class="heading-link" href="#crear-un-nuevo-sitio"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo new site mi-sitio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; mi-sitio
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="conclusión"&gt;
+ Conclusión
+ &lt;a class="heading-link" href="#conclusi%c3%b3n"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;Hugo es una excelente opción para construir sitios web estáticos. ¡Mantente atento para más tutoriales! 📚&lt;/p&gt;</description></item></channel></rss>
