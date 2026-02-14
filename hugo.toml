@@ -37,6 +37,19 @@ minifyOutput = true
   filename = "sitemap.xml"
   priority = 0.5
 
+[imaging]
+  resampleFilter = "Lanczos"
+  quality = 80
+  anchor = "Smart"
+  
+[robots]
+  # Allow all for search engines
+  # Add in frontmatter of pages you want to exclude: draft = true or robotsNoIndex = true
+  [robots.rules]
+    userAgent = "*"
+    allow = "/"
+    disallow = ["/404.html", "/categories/page/", "/tags/page/", "/series/page/"]
+
 [params]
 author = "Anxo Portela"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
@@ -65,7 +78,7 @@ maxSeeAlsoItems = 5
 customCSS = ["css/custom.css"]
 
 # Custom JS
-customJS = []
+customJS = ["js/custom.js"]
 
 # Custom remote JS files
 customRemoteJS = []
@@ -209,15 +222,20 @@ name = "Contact"
 weight = 5
 url = "/contact/"
 
+[[languages.en.menu.main]]
+name = "Search"
+weight = 6
+url = "/search/"
+
 [languages.es]
 languageName = ":es:"
 title = "Anxo Portela"
 
 [languages.es.params]
 author = "Anxo Portela"
-info = ["Desarrollador Full Stack", "Ingeniero DevOps"]
-description = "Sitio personal de Anxo Portela"
-keywords = "blog,desarrollador,personal"
+info = ["QA Lead", "Impulsando la Transformación de QA Automation", "Mentor de Talento Técnico", "Consultor Estratégico"]
+description = "Sitio personal de Anxo Portela - QA Lead y profesional de Calidad de Software"
+keywords = "blog,qa,automatización,desarrollador,personal"
 
 [[languages.es.menu.main]]
 name = "Sobre mí"
@@ -244,15 +262,20 @@ name = "Contacto"
 weight = 5
 url = "/es/contact/"
 
+[[languages.es.menu.main]]
+name = "Buscar"
+weight = 6
+url = "/es/search/"
+
 [languages.pt-br]
 languageName = ":brazil:"
 title = "Anxo Portela"
 
 [languages.pt-br.params]
 author = "Anxo Portela"
-info = ["Desenvolvedor Full Stack", "Engenheiro DevOps"]
-description = "Site pessoal de Anxo Portela"
-keywords = "blog,desenvolvedor,pessoal"
+info = ["QA Lead", "Impulsionando a Transformação de QA Automation", "Mentor de Talento Técnico", "Consultor Estratégico"]
+description = "Site pessoal de Anxo Portela - QA Lead e profissional de Qualidade de Software"
+keywords = "blog,qa,automatização,desenvolvedor,pessoal"
 
 [[languages.pt-br.menu.main]]
 name = "Sobre"
@@ -278,3 +301,8 @@ url = "/pt-br/gigs/"
 name = "Contato"
 weight = 5
 url = "/pt-br/contact/"
+
+[[languages.pt-br.menu.main]]
+name = "Pesquisar"
+weight = 6
+url = "/pt-br/search/"

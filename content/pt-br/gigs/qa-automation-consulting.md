@@ -39,6 +39,6 @@ Ajudo as organizações a projetar e implementar frameworks robustos de automaç
 
 ---
 
-**Pronto para melhorar seu processo de qualidade?** [Entre em contato](/pt-br/contact/) ou visite meu [perfil no Fiverr](#)
+**Pronto para melhorar seu processo de qualidade?** [Entre em contato](/pt-br/contact/) ou visite meu [perfil no Fiverr](https://www.fiverr.com/)
 
 *Serviços adaptados às suas necessidades específicas. Orçamentos personalizados disponíveis.*

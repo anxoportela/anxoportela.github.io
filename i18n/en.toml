@@ -78,3 +78,9 @@ other = "Close"
 
 [backToTop]
 other = "Back to top"
+
+[searchPlaceholder]
+other = "Search..."
+
+[results]
+other = "results"

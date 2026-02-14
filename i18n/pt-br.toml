@@ -78,3 +78,9 @@ other = "Fechar"
 
 [backToTop]
 other = "Voltar ao topo"
+
+[searchPlaceholder]
+other = "Pesquisar..."
+
+[results]
+other = "resultados"
