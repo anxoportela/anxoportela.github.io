@@ -1,0 +1,108 @@
+{{- /*
+Breadcrumb navigation partial
+Usage: {{ partial "breadcrumb.html" . }}
+*/ -}}
+
+{{- $.Scratch.Set "path" "" -}}
+<nav aria-label="breadcrumb" class="breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ "/" | relLangURL }}">
+        <span itemprop="name">{{ i18n "home" }}</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    {{- $url := .RelPermalink -}}
+    {{- $segments := split $url "/" -}}
+
+    {{- $position := 2 -}}
+    {{- range $index, $segment := $segments -}}
+      {{- if and ($segment) (ne $segment "index.html") -}}
+        {{- $.Scratch.Set "path" (printf "%s/%s" ($.Scratch.Get "path") $segment) -}}
+        
+        {{- $crumbTitle := $segment | humanize -}}
+        
+        {{- /* Try to get title from page */ -}}
+        {{- $crumbPage := site.GetPage ($.Scratch.Get "path") -}}
+        {{- if $crumbPage -}}
+          {{- $crumbTitle = $crumbPage.Title -}}
+        {{- end -}}
+
+        {{- /* Handle translated paths */ -}}
+        {{- if eq $segment "es" -}}
+          {{- $crumbTitle = "Español" -}}
+        {{- else if eq $segment "pt-br" -}}
+          {{- $crumbTitle = "Português" -}}
+        {{- end -}}
+
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          {{- if eq ($.Scratch.Get "path") $url -}}
+            <span itemprop="name">{{ $crumbTitle }}</span>
+          {{- else -}}
+            <a itemprop="item" href="{{ ($.Scratch.Get "path") | relLangURL }}">
+              <span itemprop="name">{{ $crumbTitle }}</span>
+            </a>
+          {{- end -}}
+          <meta itemprop="position" content="{{ $position }}" />
+        </li>
+
+        {{- $position = add $position 1 -}}
+      {{- end -}}
+    {{- end -}}
+  </ol>
+</nav>
+
+<style>
+.breadcrumb {
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.breadcrumb ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  content: "/";
+  margin: 0 0.5rem;
+  color: #888;
+}
+
+.breadcrumb a {
+  color: #1565c0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+.breadcrumb span[ itemprop="name"] {
+  color: #555;
+}
+
+body.dark .breadcrumb a {
+  color: #64b5f6;
+}
+
+body.dark .breadcrumb a:hover {
+  color: #42a5f5;
+}
+
+body.dark .breadcrumb span[ itemprop="name"] {
+  color: #aaa;
+}
+</style>

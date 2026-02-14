@@ -1,0 +1,75 @@
+{{ define "title" }}
+  {{ i18n "search" }} · {{ .Site.Title }}
+{{ end }}
+
+{{ define "content" }}
+<section class="container post">
+  <article>
+    <header>
+      <h1 class="title">{{ i18n "search" }}</h1>
+    </header>
+
+    <div class="post-content search-container">
+      <div class="search-form">
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="{{ i18n "searchPlaceholder" }}"
+          autocomplete="off"
+        >
+      </div>
+
+      <div class="tags-filter">
+        <span class="tags-label">{{ i18n "tags" }}:</span>
+        <span class="tag tag-active" data-tag="all">All</span>
+        {{- /* Collect unique tags from current language */ -}}
+        {{- $isSpanish := hasPrefix .RelPermalink "/es/" -}}
+        {{- $isPortuguese := hasPrefix .RelPermalink "/pt-br/" -}}
+        {{- $tags := slice -}}
+        {{- range .Site.RegularPages -}}
+          {{- if not .Draft -}}
+            {{- $pageIsSpanish := hasPrefix .RelPermalink "/es/" -}}
+            {{- $pageIsPortuguese := hasPrefix .RelPermalink "/pt-br/" -}}
+            {{- $pageIsEnglish := not (or $pageIsSpanish $pageIsPortuguese) -}}
+            {{- if or (and $isSpanish $pageIsSpanish) (and $isPortuguese $pageIsPortuguese) (and (not $isSpanish) (not $isPortuguese) $pageIsEnglish) -}}
+              {{- range .Params.tags -}}
+                {{- $tags = $tags | append . -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $uniqueTags := $tags | uniq | sort -}}
+        {{- range $uniqueTags -}}
+          <span class="tag" data-tag="{{ . }}">{{ . }}</span>
+        {{- end -}}
+      </div>
+
+      <div id="search-results-page" class="search-results-page">
+        {{- /* Build search index from current language only */ -}}
+        {{- range .Site.RegularPages -}}
+          {{- if not .Draft -}}
+            {{- $pageIsSpanish := hasPrefix .RelPermalink "/es/" -}}
+            {{- $pageIsPortuguese := hasPrefix .RelPermalink "/pt-br/" -}}
+            {{- $pageIsEnglish := not (or $pageIsSpanish $pageIsPortuguese) -}}
+            
+            {{- if or (and $isSpanish $pageIsSpanish) (and $isPortuguese $pageIsPortuguese) (and (not $isSpanish) (not $isPortuguese) $pageIsEnglish) -}}
+            <div class="search-item" data-tags="{{ range $i, $e := .Params.tags }}{{ if $i }},{{ end }}{{ $e }}{{ end }}">
+              <h1 class="search-item-title">{{ .Title }}</h1>
+              <small><a href="{{ .Permalink }}" class="search-item-link">{{ .Permalink }}</a> · {{ .Date.Format "January 2, 2006" }}</small>
+              <p>{{ .Description | truncate 120 }}</p>
+              <div class="item-tags">
+                {{- range .Params.tags -}}
+                <span class="item-tag">{{ . }}</span>
+                {{- end -}}
+              </div>
+            </div>
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      </div>
+    </div>
+  </article>
+</section>
+
+<script src="/js/custom.js"></script>
+{{ end }}
